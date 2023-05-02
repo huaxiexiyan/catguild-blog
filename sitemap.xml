@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.catguild.cn/posts/</loc>
+    <lastmod>2023-05-01T00:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://www.catguild.cn/tags/</loc>
+    <lastmod>2023-05-01T00:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://www.catguild.cn/posts/hugo%E6%96%87%E7%AB%A0%E5%B1%9E%E6%80%A7%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2023-05-01T00:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://www.catguild.cn/tags/%E6%88%91%E6%98%AF%E6%A0%87%E7%AD%BE/</loc>
+    <lastmod>2023-05-01T00:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://www.catguild.cn/</loc>
+    <lastmod>2023-05-01T00:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://www.catguild.cn/categories/</loc>
+  </url><url>
+    <loc>https://www.catguild.cn/posts/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</loc>
+  </url><url>
+    <loc>https://www.catguild.cn/series/</loc>
+  </url><url>
+    <loc>https://www.catguild.cn/about/</loc>
+  </url><url>
+    <loc>https://www.catguild.cn/links/</loc>
+  </url><url>
+    <loc>https://www.catguild.cn/archives/</loc>
+  </url><url>
+    <loc>https://www.catguild.cn/search/</loc>
+  </url>
+</urlset>

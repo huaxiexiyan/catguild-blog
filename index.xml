@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>猫公会</title>
+    <link>https://www.catguild.cn/</link>
+    <description>Recent content on 猫公会</description>
+    <image>
+      <title>猫公会</title>
+      <url>https://www.catguild.cn/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.catguild.cn/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 01 May 2023 00:30:03 +0000</lastBuildDate><atom:link href="https://www.catguild.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我是文章标题</title>
+      <link>https://www.catguild.cn/posts/hugo%E6%96%87%E7%AB%A0%E5%B1%9E%E6%80%A7%E6%B5%8B%E8%AF%95/</link>
+      <pubDate>Mon, 01 May 2023 00:30:03 +0000</pubDate>
+      
+      <guid>https://www.catguild.cn/posts/hugo%E6%96%87%E7%AB%A0%E5%B1%9E%E6%80%A7%E6%B5%8B%E8%AF%95/</guid>
+      <description>描述性文字</description>
+    </item>
+    
+    <item>
+      <title>markdown语法效果测试</title>
+      <link>https://www.catguild.cn/posts/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catguild.cn/posts/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</guid>
+      <description>这里是这篇文章的源文件： 测试各种样式的帖子哦 上面是分割线，看到了么？ 段内格式测试： 这里首先是紧接着的一段而不分行。然后是粗体和斜体，粗斜体，以及删除线和段内代码，最后就是注脚1。 下划线生成标题： 下划线标题1 下划线标题2 #Sharp标题1 ##</description>
+    </item>
+    
+    <item>
+      <title>关于</title>
+      <link>https://www.catguild.cn/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catguild.cn/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>友链</title>
+      <link>https://www.catguild.cn/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catguild.cn/links/</guid>
+      <description>SoulChild随笔记 SoulChild随笔记</description>
+    </item>
+    
+    
+    
+  </channel>
+</rss>
