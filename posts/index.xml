@@ -22,12 +22,39 @@
     </item>
     
     <item>
+      <title></title>
+      <link>https://www.catguild.cn/posts/%E8%AE%B0%E4%B8%80%E6%AC%A1durid%E6%95%B0%E6%8D%AE%E6%BA%90%E5%AF%BC%E8%87%B4%E7%9A%84%E7%94%9F%E4%BA%A7%E4%BA%8B%E6%95%85/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catguild.cn/posts/%E8%AE%B0%E4%B8%80%E6%AC%A1durid%E6%95%B0%E6%8D%AE%E6%BA%90%E5%AF%BC%E8%87%B4%E7%9A%84%E7%94%9F%E4%BA%A7%E4%BA%8B%E6%95%85/</guid>
+      <description>记一次生产事故 事故情景 表现 解决 原因 复盘</description>
+    </item>
+    
+    <item>
       <title>markdown语法效果测试</title>
       <link>https://www.catguild.cn/posts/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.catguild.cn/posts/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</guid>
       <description>这里是这篇文章的源文件： 测试各种样式的帖子哦 上面是分割线，看到了么？ 段内格式测试： 这里首先是紧接着的一段而不分行。然后是粗体和斜体，粗斜体，以及删除线和段内代码，最后就是注脚1。 下划线生成标题： 下划线标题1 下划线标题2 #Sharp标题1 ##</description>
+    </item>
+    
+    <item>
+      <title>Spring定时任务</title>
+      <link>https://www.catguild.cn/posts/spring%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catguild.cn/posts/spring%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</guid>
+      <description>初认识 基本用于 三种触发器 实际运行一下 import lombok.extern.slf4j.Slf4j; import org.springframework.scheduling.annotation.EnableScheduling; import org.springframework.scheduling.annotation.Scheduled; import org.springframework.stereotype.Component; /** * @author xiyan * @date 2023/7/5 14:36 */ @Slf4j @EnableScheduling @Component public class DemoScheduledTest { /** * 固定延迟时间 * 间隔 5s ，执行 3s、实际间隔8s * 2023-07-06 17:36:05.068 * 2023-07-06 17:36:13.091 * 2023-07-06 17:36:21.109 * 2023-07-06 17:36:29.134 * 2023-07-06 17:36:37.149 * &amp;lt;p&amp;gt; * 间隔 5s ，执行 5s、实际间隔10s * 2023-07-05 14:38:46.182 * 2023-07-05 14:38:56.196 * 2023-07-05 14:39:06.210 * 2023-07-05 14:39:16.235 * 2023-07-05 14:39:26.244 * &amp;lt;p&amp;gt; * 间隔</description>
+    </item>
+    
+    <item>
+      <title>内容分发网络CND</title>
+      <link>https://www.catguild.cn/posts/%E5%86%85%E5%AE%B9%E5%88%86%E5%8F%91%E7%BD%91%E7%BB%9Ccnd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catguild.cn/posts/%E5%86%85%E5%AE%B9%E5%88%86%E5%8F%91%E7%BD%91%E7%BB%9Ccnd/</guid>
+      <description>CDN 含义 内容分发网络（英语：Content Delivery Network或Content Distribution Network，缩写：CDN）是指一种透过互联网互相连接的电脑网络系统，利用最靠近每位用户的服务器，更快、更可靠地将音乐、图片、视频、应用程序及其他文件发送给用户，来</description>
     </item>
     
   </channel>
