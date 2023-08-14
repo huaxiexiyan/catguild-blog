@@ -40,6 +40,15 @@
     </item>
     
     <item>
+      <title>gRPC</title>
+      <link>https://www.catguild.cn/posts/gprc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catguild.cn/posts/gprc/</guid>
+      <description>protobuf语法 文件格式 .proto 版本设定 # 可选proto2 ，主流一般都是用 proto3 syntax = &amp;#34;proto3&amp;#34;; 注释 单行 # 多行 /* */ 与java语言相关的语法 # 后续 protobuf 生成的java代码，是在同一源文件，还是多个源文件中 option java_multiple_files = true; # 指定 protobuf 生成的类 放在什么包下面 option java_package = &amp;#34;com.xx.xx&amp;#34;; # 指定 protobuf 生成</description>
+    </item>
+    
+    <item>
       <title>markdown语法效果测试</title>
       <link>https://www.catguild.cn/posts/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -85,12 +94,21 @@
     </item>
     
     <item>
-      <title>Spring定时任务</title>
+      <title>Spring Task定时任务</title>
       <link>https://www.catguild.cn/posts/spring%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.catguild.cn/posts/spring%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</guid>
-      <description>初认识 基本用于 三种触发器 实际运行一下 import lombok.extern.slf4j.Slf4j; import org.springframework.scheduling.annotation.EnableScheduling; import org.springframework.scheduling.annotation.Scheduled; import org.springframework.stereotype.Component; /** * @author xiyan * @date 2023/7/5 14:36 */ @Slf4j @EnableScheduling @Component public class DemoScheduledTest { /** * 固定延迟时间 * 间隔 5s ，执行 3s、实际间隔8s * 2023-07-06 17:36:05.068 * 2023-07-06 17:36:13.091 * 2023-07-06 17:36:21.109 * 2023-07-06 17:36:29.134 * 2023-07-06 17:36:37.149 * &amp;lt;p&amp;gt; * 间隔 5s ，执行 5s、实际间隔10s * 2023-07-05 14:38:46.182 * 2023-07-05 14:38:56.196 * 2023-07-05 14:39:06.210 * 2023-07-05 14:39:16.235 * 2023-07-05 14:39:26.244 * &amp;lt;p&amp;gt; * 间隔</description>
+      <description>初认识 基本使用 1、添加基本依赖 2、 @EnableScheduling 注解开启定时任务 @Scheduled 注释标注定时任务方法 通过注册ScheduledAnnotationBeanPostProcessor来执行@Scheduled注释的处理。这可以手动完成，或者更方便地通过task:ann</description>
+    </item>
+    
+    <item>
+      <title>SpringBoot初始化方法</title>
+      <link>https://www.catguild.cn/posts/springboot%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catguild.cn/posts/springboot%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%B3%95/</guid>
+      <description>总览 方式 优点 缺点 @PostConstruct 注解 1、简单直观，只需要在方法上添加注解即可。2、集成度高，与Spring框架紧密结合，适用于需要与其他Spring功能一起使用的场景。 1、不太适合复杂的初始化逻辑，因为它没有提供很多的错误处理机制。2、无法捕获方法内部的</description>
     </item>
     
     <item>
@@ -138,6 +156,24 @@
       
       <guid>https://www.catguild.cn/category/juc/%E7%BA%BF%E7%A8%8B%E4%B8%AD%E6%96%AD/</guid>
       <description>线程中断机制 LockSupport类 简介：用于创建锁和其他同步类的基本线程阻塞原语 该类与使用它的每个线程关联一个许可证（在Semaphore类的意义上）。如果许可证可用，将立即返回park，并在此过程中消费；否则可能会阻止。如果尚未提供许可</description>
+    </item>
+    
+    <item>
+      <title>邀请码实现方案</title>
+      <link>https://www.catguild.cn/posts/%E9%82%80%E8%AF%B7%E7%A0%81%E5%AE%9E%E7%8E%B0%E6%96%B9%E6%A1%88/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catguild.cn/posts/%E9%82%80%E8%AF%B7%E7%A0%81%E5%AE%9E%E7%8E%B0%E6%96%B9%E6%A1%88/</guid>
+      <description>算法实现 参考 浅谈邀请码的生成</description>
+    </item>
+    
+    <item>
+      <title>雪花算法</title>
+      <link>https://www.catguild.cn/posts/%E9%9B%AA%E8%8A%B1%E7%AE%97%E6%B3%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.catguild.cn/posts/%E9%9B%AA%E8%8A%B1%E7%AE%97%E6%B3%95/</guid>
+      <description>snowflake 分布式id生成算法的有很多种，Twitter的雪花算法（SnowFlake）就是其中经典的一种。 SnowFlake算法的优点： 生成ID时不依赖于数据库，完全在内存生成，高性能高可用。 容量大，每秒可生成几百万ID。 SnowFlake算法在同</description>
     </item>
     
   </channel>
