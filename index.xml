@@ -160,11 +160,11 @@
     
     <item>
       <title>邀请码实现方案</title>
-      <link>https://www.catguild.cn/posts/%E9%82%80%E8%AF%B7%E7%A0%81%E5%AE%9E%E7%8E%B0%E6%96%B9%E6%A1%88/</link>
+      <link>https://www.catguild.cn/posts/2023081401/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.catguild.cn/posts/%E9%82%80%E8%AF%B7%E7%A0%81%E5%AE%9E%E7%8E%B0%E6%96%B9%E6%A1%88/</guid>
-      <description>算法实现 参考 浅谈邀请码的生成</description>
+      <guid>https://www.catguild.cn/posts/2023081401/</guid>
+      <description>实现方案 需求 前提条件： 1、id是一个整数 2、code码是整数或大写字母 实现需求 1、唯一性（必须保证） 2、id与code能相互解析转换 3、code长度适中 6-10 位 4、生成的code需要一定程度的保密（规律不能太明显，轻易解析出id来） 实现逻辑 代码</description>
     </item>
     
     <item>
