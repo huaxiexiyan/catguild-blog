@@ -5,26 +5,13 @@
         <link>https://www.catguild.cn/posts/</link>
         <description>Recent content in Posts on 雪乃の猫</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language><atom:link href="https://www.catguild.cn/posts/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title></title>
-        <link>https://www.catguild.cn/posts/%E8%AE%B0%E4%B8%80%E6%AC%A1durid%E6%95%B0%E6%8D%AE%E6%BA%90%E5%AF%BC%E8%87%B4%E7%9A%84%E7%94%9F%E4%BA%A7%E4%BA%8B%E6%95%85/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.catguild.cn/posts/%E8%AE%B0%E4%B8%80%E6%AC%A1durid%E6%95%B0%E6%8D%AE%E6%BA%90%E5%AF%BC%E8%87%B4%E7%9A%84%E7%94%9F%E4%BA%A7%E4%BA%8B%E6%95%85/</guid>
-        <description>&lt;h1 id=&#34;记一次生产事故&#34;&gt;记一次生产事故&lt;/h1&gt;
-&lt;p&gt;事故情景&lt;/p&gt;
-&lt;p&gt;表现&lt;/p&gt;
-&lt;p&gt;解决&lt;/p&gt;
-&lt;p&gt;原因&lt;/p&gt;
-&lt;p&gt;复盘&lt;/p&gt;
-</description>
-        </item>
-        <item>
+        <language>zh-cn</language>
+        <lastBuildDate>Fri, 15 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.catguild.cn/posts/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>gRPC</title>
-        <link>https://www.catguild.cn/posts/gprc/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <link>https://www.catguild.cn/posts/2023091504/</link>
+        <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://www.catguild.cn/posts/gprc/</guid>
+        <guid>https://www.catguild.cn/posts/2023091504/</guid>
         <description>&lt;h1 id=&#34;protobuf语法&#34;&gt;protobuf语法&lt;/h1&gt;
 &lt;p&gt;文件格式&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-proto&#34; data-lang=&#34;proto&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;proto&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
@@ -93,243 +80,11 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
         </item>
         <item>
-        <title>markdown语法效果测试</title>
-        <link>https://www.catguild.cn/posts/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.catguild.cn/posts/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</guid>
-        <description>&lt;p&gt;这里是这篇文章的源文件：&lt;/p&gt;
-&lt;p&gt;测试各种样式的帖子哦&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;上面是分割线，看到了么？&lt;/p&gt;
-&lt;p&gt;段内格式测试：
-这里首先是紧接着的一段而不分行。然后是&lt;strong&gt;粗体&lt;/strong&gt;和&lt;em&gt;斜体&lt;/em&gt;，&lt;em&gt;&lt;strong&gt;粗斜体&lt;/strong&gt;&lt;/em&gt;，以及&lt;del&gt;删除线&lt;/del&gt;和&lt;code&gt;段内代码&lt;/code&gt;，最后就是注脚&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;下划线生成标题：&lt;/p&gt;
-&lt;h1 id=&#34;下划线标题1&#34;&gt;下划线标题1&lt;/h1&gt;
-&lt;h2 id=&#34;下划线标题2&#34;&gt;下划线标题2&lt;/h2&gt;
-&lt;p&gt;#Sharp标题1&lt;/p&gt;
-&lt;p&gt;##Sharp标题2&lt;/p&gt;
-&lt;p&gt;###Sharp标题3&lt;/p&gt;
-&lt;p&gt;####Sharp标题4&lt;/p&gt;
-&lt;p&gt;#####Sharp标题5&lt;/p&gt;
-&lt;p&gt;######Sharp标题6&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;lsquo;&amp;gt;&amp;lsquo;导出的引用代码块
-段内分行&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;两行结束代码块&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;引用块内样式：&lt;strong&gt;粗体&lt;/strong&gt;，&lt;em&gt;斜体&lt;/em&gt;，&lt;em&gt;&lt;strong&gt;粗斜体&lt;/strong&gt;&lt;/em&gt;，&lt;del&gt;删除线&lt;/del&gt;，&lt;code&gt;段内代码&lt;/code&gt;。
-第二用&amp;rsquo;&amp;gt;&amp;lsquo;继续引用块&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;双重引用块&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;p&gt;代码引用：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;  四个空格的方式
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;一换行就没了&lt;/p&gt;
-&lt;p&gt;[```] //不要这里的中括号哦。。。
-fence的方式
-这个方式不怕换行&lt;/p&gt;
-&lt;p&gt;怎么换都可以。&lt;/p&gt;
-&lt;p&gt;这里不能使用别的样式：&lt;strong&gt;粗体&lt;/strong&gt;，&lt;em&gt;斜体&lt;/em&gt;，&lt;del&gt;删除线&lt;/del&gt;，&lt;a class=&#34;link&#34; href=&#34;http://www.google.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;超链接&lt;/a&gt;
-[```] //不要这里的中括号哦。。。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;列表：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;有序列表1&lt;/li&gt;
-&lt;li&gt;有序列表2&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code&gt;- 子列表1
-- 子列表2
-  * 子子列表1
-  * 子子列表2
-    1. 子子子列表1
-    1. 子子子列表2
-    1. 子子子列表3
-  * 子子列表3
-- 子列表3
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol&gt;
-&lt;li&gt;有序列表3&lt;/li&gt;
-&lt;li&gt;有序列表4&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;无序列表1&lt;/li&gt;
-&lt;li&gt;无序列表2&lt;/li&gt;
-&lt;li&gt;无序列表3&lt;/li&gt;
-&lt;li&gt;无序列表4&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;测试超链接：&lt;a class=&#34;link&#34; href=&#34;http://www.jianshu.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;直接适用URL&lt;/a&gt;和&lt;a class=&#34;link&#34; href=&#34;http://jianshu.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;使用引用URL&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;接着是图片：&lt;img src=&#34;https://img.58tg.com/up/allimg/tx23/120415025830516.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;这里是图片说明&#34;
-	
-	
-&gt;
-和引用式的用法：&lt;img src=&#34;https://img.58tg.com/up/allimg/tx23/120415025830516.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;这个是引用图片地址的方法哦&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://img.58tg.com/up/allimg/tx23/120415025830516.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;图片说明里也可以使用各种语法，比如粗体，斜体，删除线，段内代码&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;表格：&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;A&lt;/th&gt;
-&lt;th&gt;B&lt;/th&gt;
-&lt;th&gt;C&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;A1&lt;/td&gt;
-&lt;td&gt;B1&lt;/td&gt;
-&lt;td&gt;C1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;A2&lt;/td&gt;
-&lt;td&gt;B2&lt;/td&gt;
-&lt;td&gt;C2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;这是普通表格&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;左对齐&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;剧中&lt;/th&gt;
-&lt;th style=&#34;text-align:right&#34;&gt;右对齐&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;A1&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;B1&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;C1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;A2&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;B2&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;C2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;这是文艺表格&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;A&lt;/th&gt;
-&lt;th&gt;B&lt;/th&gt;
-&lt;th&gt;C&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;粗体&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;del&gt;删除&lt;/del&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;__另一种粗体__A2&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;另一个斜体&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;段内代码&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.twitter.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;超链接也可以&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;脚注&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;这是二逼表格&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;接下来是sanitize部分：&lt;/p&gt;
-  &lt;p&gt;p标签的使用&lt;/p&gt;
-  &lt;blockquote&gt;blockquote标签的使用&lt;/blockquote&gt;
-  &lt;pre&gt;pre标签&lt;/pre&gt;
-&lt;p&gt;&lt;code&gt;code标签&lt;/code&gt;&lt;/p&gt;
-  &lt;pre&gt;&lt;code&gt;pre和code&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;下面试试列表们&lt;/p&gt;
-  &lt;ol&gt;
-  &lt;li&gt;有序列表1&lt;/li&gt;
-  &lt;li&gt;有序列表2
-  &lt;ul&gt;
-  &lt;li&gt;子列表1&lt;/li&gt;
-  &lt;li&gt;子列表2
-  &lt;ul&gt;
-  &lt;li&gt;子子列表1&lt;/li&gt;
-  &lt;li&gt;子子列表2
-  &lt;ol&gt;
-  &lt;li&gt;子子子列表1&lt;/li&gt;
-  &lt;li&gt;子子子列表2&lt;/li&gt;
-  &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;子子列表3&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;子列表1&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;有序列表3&lt;/li&gt;
-  &lt;/ol&gt;
-&lt;p&gt;格式：
-&lt;b&gt;B粗体&lt;/b&gt;和&lt;strong&gt;STRONG粗体&lt;/strong&gt;
-&lt;i&gt;I斜体&lt;/i&gt;和&lt;em&gt;EM斜体&lt;/em&gt;
-&lt;u&gt;U下划线&lt;/u&gt;和&lt;strike&gt;STRIKE删除线&lt;/strike&gt;与&lt;del&gt;STRIKE删除线&lt;/del&gt;
-&lt;a&gt;超链接&lt;/a&gt;，&lt;cite&gt;CITE标记&lt;/cite&gt;，&lt;caption&gt;CAPTION标题&lt;/caption&gt;
-普通文字&lt;sup&gt;SUP上标&lt;/sup&gt;&lt;sub&gt;SUB下标&lt;/sub&gt;&lt;big&gt;BIG加大&lt;/big&gt;&lt;small&gt;SMALL减小&lt;/small&gt;
-带尺寸的IMAGE
-&lt;img src=&#34;https://img.58tg.com/up/allimg/tx23/120415025830516.jpg&#34; width=300 /&gt;&lt;/p&gt;
-&lt;p&gt;嗯，常用的基本就这些了。&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;这个就是注脚内容，写在文章最后&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:2&#34;&gt;
-&lt;p&gt;这个是第二条注脚内容，写在文章里面&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        </item>
-        <item>
         <title>Spring Task定时任务</title>
-        <link>https://www.catguild.cn/posts/spring%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <link>https://www.catguild.cn/posts/2023091505/</link>
+        <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://www.catguild.cn/posts/spring%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</guid>
+        <guid>https://www.catguild.cn/posts/2023091505/</guid>
         <description>&lt;h1 id=&#34;初认识&#34;&gt;初认识&lt;/h1&gt;
 &lt;h2 id=&#34;基本使用&#34;&gt;基本使用&lt;/h2&gt;
 &lt;h4 id=&#34;1添加基本依赖&#34;&gt;1、添加基本依赖&lt;/h4&gt;
@@ -1534,10 +1289,10 @@ fence的方式
         </item>
         <item>
         <title>SpringBoot初始化方法</title>
-        <link>https://www.catguild.cn/posts/springboot%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%B3%95/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <link>https://www.catguild.cn/posts/2023091506/</link>
+        <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://www.catguild.cn/posts/springboot%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%B3%95/</guid>
+        <guid>https://www.catguild.cn/posts/2023091506/</guid>
         <description>&lt;h1 id=&#34;总览&#34;&gt;总览&lt;/h1&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -1684,201 +1439,11 @@ fence的方式
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
         </item>
         <item>
-        <title>内容分发网络CND</title>
-        <link>https://www.catguild.cn/posts/%E5%86%85%E5%AE%B9%E5%88%86%E5%8F%91%E7%BD%91%E7%BB%9Ccnd/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.catguild.cn/posts/%E5%86%85%E5%AE%B9%E5%88%86%E5%8F%91%E7%BD%91%E7%BB%9Ccnd/</guid>
-        <description>&lt;h1 id=&#34;cdn-含义&#34;&gt;CDN 含义&lt;/h1&gt;
-&lt;p&gt;内容分发网络（英语：Content Delivery Network或Content Distribution Network，缩写：CDN）是指一种透过互联网互相连接的电脑网络系统，利用最靠近每位用户的服务器，更快、更可靠地将音乐、图片、视频、应用程序及其他文件发送给用户，来提供高性能、可扩展性及低成本的网络内容传递给用户。&amp;mdash;引用自维基百科&lt;/p&gt;
-&lt;h1 id=&#34;cdn-服务&#34;&gt;CDN 服务&lt;/h1&gt;
-&lt;p&gt;CDN服务类似服务器的租赁服务，这些服务器一般都是CDN服务商的数据中心，这些服务器可以缓存我们的网站资源，类似一种高速缓存。但是我们无法直接登录这些服务器，但是可以设置一些服务商开放出来的数据管理策略，比如&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;静态资源压缩，减小资源传输体积，以提高传输速度和带宽利用率，最常见的压缩方案包括gzip和Brotli。&lt;/li&gt;
-&lt;li&gt;缓存策略，指定缓存的资源及缓存过期时间，以提供响应速度，并且降低了源服务器的访问压力。&lt;/li&gt;
-&lt;li&gt;安全策略，用以防止链接盗用，一般的CDN服务都是要付费的，可以设置安全策略，来访问其他人来使用你的CDN服务&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;cdn工作流程&#34;&gt;CDN工作流程&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;终端访问CDN加速域名&lt;/li&gt;
-&lt;li&gt;DNS服务解析CNAME记录（实际上就是获取CDN服务商的服务器地址，此时会返回一个里终端最近的服务器地址）&lt;/li&gt;
-&lt;li&gt;终端去访问DNS服务器返回的目标服务器地址&lt;/li&gt;
-&lt;li&gt;CDN服务器检查是否存在该资源
-4-1. 如果存在则直接返回该资源
-4-2. 如果不存在，则前往回源地址或回源host获取该资源，然后将其返回给终端&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&#34;如何利用好cdn服务&#34;&gt;如何利用好CDN服务&lt;/h1&gt;
-&lt;p&gt;现在我们知道了CDN服务，实际就是在实际的资源机之间加了一个缓冲集群。终端将不再之间访问我们的资源机，而是是访问这个缓冲集群。如果访问到的节点中没有目标资源，该节点才会去资源机去拉取。故，要提高CDN服务的利用，就是要减少这个拉取动作，也可以说是回源率。另一方面，回源是难以避免的，所有提高回源效率，也会优化的访问速度。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;降低回源率：一般就是采用服务商提供的缓存机制，而要利用好缓存，就需要对资源站尽可能的静态化。&lt;/li&gt;
-&lt;li&gt;提高回源效果：对一些静态资源的访问，进行合并压缩处理，以减少访问次数，资源传输体积；或者提高资源站的带宽（这点可能会比较难，其实CDN的目的就是在带宽不变的前提下提高更快的访问服务）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;其实总结起来就是，缓存+减少数据传输量+减少访问次数
-而这三条，在CDN服务商提供的缓冲集群能做，在自己的资源机上也能做。这样就能尽可能的加快资源机的资源访问速度。&lt;/p&gt;
-&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://https://en.wikipedia.org/wiki/Content_delivery_network&#34;  title=&#34;Content delivery network&#34;
-     target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Content delivery network - Wikipedia&lt;/a&gt;
-&lt;a class=&#34;link&#34; href=&#34;https://wiki.mbalib.com/zh-tw/%E5%86%85%E5%AE%B9%E5%88%86%E5%8F%91%E7%BD%91%E7%BB%9C&#34;  title=&#34;內容分髮網絡- MBA智库百科&#34;
-     target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;內容分髮網絡- MBA智库百科&lt;/a&gt;
-&lt;a class=&#34;link&#34; href=&#34;https://www.cloudflare.com/zh-cn/learning/cdn/what-is-a-cdn&#34;  title=&#34;What is a CDN? | How do CDNs work? | Cloudflare&#34;
-     target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;What is a CDN? | How do CDNs work? | Cloudflare&lt;/a&gt;
-&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/CNAME/9845877?fr=aladdin&#34;  title=&#34;CNAME - 百度百科&#34;
-     target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;CNAME - 百度百科&lt;/a&gt;
-&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/gzip/4487553?fr=aladdin&#34;  title=&#34;gzip - 百度百科&#34;
-     target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;gzip - 百度百科&lt;/a&gt;
-&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/HTTP_compression&#34;  title=&#34;HTTP compression&#34;
-     target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;HTTP compression&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>我是文章标题</title>
-        <link>https://www.catguild.cn/posts/hugo%E6%96%87%E7%AB%A0%E5%B1%9E%E6%80%A7%E6%B5%8B%E8%AF%95/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.catguild.cn/posts/hugo%E6%96%87%E7%AB%A0%E5%B1%9E%E6%80%A7%E6%B5%8B%E8%AF%95/</guid>
-        <description>&lt;p&gt;测试文章属性值使用&lt;/p&gt;
-&lt;h1 id=&#34;目录1&#34;&gt;目录1&lt;/h1&gt;
-&lt;h2 id=&#34;目录12&#34;&gt;目录1.2&lt;/h2&gt;
-&lt;h1 id=&#34;目录2&#34;&gt;目录2&lt;/h1&gt;
-&lt;h2 id=&#34;目录21&#34;&gt;目录2.1&lt;/h2&gt;
-&lt;h3 id=&#34;目录211&#34;&gt;目录2.1.1&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  system&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;hello world&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;);&lt;/span&gt;	
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;测试相册&#34;&gt;测试相册&lt;/h1&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[comment]: &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&amp;lt;&lt;/span&gt;&amp;gt; 使用的时候把前面的a去掉
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;galleries&lt;/span&gt; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;gallery&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.sulvblog.cn/image/16_IMG_20220430_202353.png&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;香克斯&amp;#34;&lt;/span&gt;&amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;gallery&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.sulvblog.cn/image/17_IMG_20220430_202228.png&amp;#34;&lt;/span&gt; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;gallery&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.sulvblog.cn/image/19_IMG_20220430_200901.png&amp;#34;&lt;/span&gt; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;gallery&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.sulvblog.cn/image/16_IMG_20220430_202353.png&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;香克斯&amp;#34;&lt;/span&gt; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;gallery&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.sulvblog.cn/image/17_IMG_20220430_202228.png&amp;#34;&lt;/span&gt; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;gallery&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.sulvblog.cn/image/19_IMG_20220430_200901.png&amp;#34;&lt;/span&gt; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;gallery&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.sulvblog.cn/image/16_IMG_20220430_202353.png&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;香克斯&amp;#34;&lt;/span&gt; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;gallery&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.sulvblog.cn/image/17_IMG_20220430_202228.png&amp;#34;&lt;/span&gt; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;gallery&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.sulvblog.cn/image/19_IMG_20220430_200901.png&amp;#34;&lt;/span&gt; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; /&lt;span style=&#34;color:#f92672&#34;&gt;galleries&lt;/span&gt; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;————————————————
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;版权声明：本文为「Sulv&amp;#39;s Blog」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;原文链接：https://www.sulvblog.cn/posts/blog/hugo_gallery/
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;!DOCTYPE html&gt;
-&lt;html lang=&#34;en&#34;&gt;
-&lt;head&gt;
-    &lt;meta name=&#34;viewport&#34; content=&#34;user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1&#34;&gt;
-    &lt;script src=&#34;https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js&#34;&gt;&lt;/script&gt;
-    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdn.jsdelivr.net/npm/nanogallery2@3.0.5/dist/css/nanogallery2.min.css&#34;&gt;
-    &lt;script src=&#34;https://cdn.jsdelivr.net/npm/nanogallery2@3.0.5/dist/jquery.nanogallery2.min.js&#34;&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-
-&lt;div data-nanogallery2=&#39;{
-	 &#34;thumbnailDisplayTransition&#34;:          &#34;none&#34;,
-     &#34;thumbnailDisplayTransitionDuration&#34;:  500,
-     &#34;thumbnailDisplayInterval&#34;:            30,
-     &#34;galleryDisplayTransition&#34;:            &#34;none&#34;,
-     &#34;galleryDisplayTransitionDuration&#34;:    500,
-     &#34;galleryDisplayMode&#34;: &#34;rows&#34;,
-     &#34;thumbnailDisplayOutsideScreen&#34;: &#34;false&#34;,
-     &#34;eventsDebounceDelay&#34;: 10,
-     &#34;thumbnailL1BorderHorizontal&#34;: 0,
-     &#34;thumbnailL1BorderVertical&#34;: 0,
-     &#34;thumbnailLabel&#34;: {
-        &#34;titleFontSize&#34;: &#34;0.6em&#34;
-     },
-     &#34;thumbnailHoverEffect2&#34;: &#34;image_scale_1.00_1.10|label_backgroundColor_rgba(0,0,0,0)_rgba(255,255,255,0)&#34;,
-     &#34;galleryTheme&#34;: {
-        &#34;thumbnail&#34;: {
-            &#34;borderRadius&#34;: &#34;8px&#34;
-        }
-     },
-     &#34;thumbnailToolbarImage&#34;: {
-        &#34;topLeft&#34;: &#34;&#34;,
-        &#34;topRight&#34;: &#34;&#34;,
-        &#34;bottomLeft&#34;: &#34;&#34;,
-        &#34;bottomRight&#34;: &#34;&#34;
-     },
-     &#34;viewerToolbar&#34;:   {
-        &#34;display&#34;: true,
-        &#34;standard&#34;: &#34;label&#34;
-     },
-     &#34;viewerTools&#34;:     {
-        &#34;topLeft&#34;:    &#34;pageCounter, playPauseButton&#34;,
-        &#34;topRight&#34;:   &#34;downloadButton, rotateLeft, zoomButton, fullscreenButton, closeButton&#34;
-     },
-     &#34;viewerGalleryTWidth&#34;: 40,
-     &#34;viewerGalleryTHeight&#34;: 40
-}&#39;&gt;
-    
-&lt;a href=&#34;https://www.sulvblog.cn/image/16_IMG_20220430_202353.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/16_IMG_20220430_202353.png&#34;&gt;香克斯&lt;/a&gt;
-&lt;a href=&#34;https://www.sulvblog.cn/image/17_IMG_20220430_202228.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/17_IMG_20220430_202228.png&#34;&gt;&lt;/a&gt;
-&lt;a href=&#34;https://www.sulvblog.cn/image/19_IMG_20220430_200901.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/19_IMG_20220430_200901.png&#34;&gt;&lt;/a&gt;
-&lt;a href=&#34;https://www.sulvblog.cn/image/16_IMG_20220430_202353.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/16_IMG_20220430_202353.png&#34;&gt;香克斯&lt;/a&gt;
-&lt;a href=&#34;https://www.sulvblog.cn/image/17_IMG_20220430_202228.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/17_IMG_20220430_202228.png&#34;&gt;&lt;/a&gt;
-&lt;a href=&#34;https://www.sulvblog.cn/image/19_IMG_20220430_200901.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/19_IMG_20220430_200901.png&#34;&gt;&lt;/a&gt;
-&lt;a href=&#34;https://www.sulvblog.cn/image/16_IMG_20220430_202353.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/16_IMG_20220430_202353.png&#34;&gt;香克斯&lt;/a&gt;
-&lt;a href=&#34;https://www.sulvblog.cn/image/17_IMG_20220430_202228.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/17_IMG_20220430_202228.png&#34;&gt;&lt;/a&gt;
-&lt;a href=&#34;https://www.sulvblog.cn/image/19_IMG_20220430_200901.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/19_IMG_20220430_200901.png&#34;&gt;&lt;/a&gt;
-
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-
-&lt;h1 id=&#34;插入功能&#34;&gt;插入功能&lt;/h1&gt;
-&lt;h2 id=&#34;ppt&#34;&gt;ppt&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;ppt&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ppt网址&amp;#34;&lt;/span&gt; &amp;gt;}} 
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 使用的时候把字母a去掉，我加上是为了防止被识别生效
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;————————————————
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;版权声明：本文为「Sulv&amp;#39;s Blog」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;原文链接：https://www.sulvblog.cn/posts/blog/shortcodes/#61-ppt-%e5%b1%95%e7%a4%ba
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;bilibili-视频&#34;&gt;bilibili 视频&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;bilibili&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;BV1xW4y1a7NK&lt;/span&gt; &amp;gt;}}  
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 使用的时候把字母a去掉，我加上是为了防止被识别生效
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# BV1Ab4y117G2 指的是 bilibili 链接中的 bvid
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 如果有集数（默认第一集），例如要播放第5集，则这样使用：{a{&amp;lt; bilibili BV1xW4y1a7NK 5 &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;————————————————
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;版权声明：本文为「Sulv&amp;#39;s Blog」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;原文链接：https://www.sulvblog.cn/posts/blog/shortcodes/#62-bilibili-%e8%a7%86%e9%a2%91
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;youtube-视频&#34;&gt;youtube 视频&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;youtube&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;WsptdUFthWI&lt;/span&gt; &amp;gt;}}  
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 使用的时候把字母a去掉，我加上是为了防止被识别生效
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;————————————————
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;版权声明：本文为「Sulv&amp;#39;s Blog」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;原文链接：https://www.sulvblog.cn/posts/blog/shortcodes/#63-youtube-%e8%a7%86%e9%a2%91
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;博客文章内链&#34;&gt;博客文章内链&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;innerlink&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;posts/tech/go_slice_map_thread_safety.md&amp;#34;&lt;/span&gt; &amp;gt;}}  
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 使用的时候把字母a去掉，我加上是为了防止被识别生效
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 注意：结尾要加md，开头不用加域名
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 卡片获取的文章长度默认是70，需要在config.yaml配置文件添加 summaryLength: 140，即设置为140
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;————————————————
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;版权声明：本文为「Sulv&amp;#39;s Blog」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;原文链接：https://www.sulvblog.cn/posts/blog/shortcodes/#63-youtube-%e8%a7%86%e9%a2%91
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;豆瓣阅读和电影卡片&#34;&gt;豆瓣阅读和电影卡片&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;douban&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;直接放网址如：https://book.douban.com/subject/20394150/&amp;#34;&lt;/span&gt; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 使用的时候把字母a去掉，我加上是为了防止被识别生效
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;————————————————
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;版权声明：本文为「Sulv&amp;#39;s Blog」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;原文链接：https://www.sulvblog.cn/posts/blog/shortcodes/#63-youtube-%e8%a7%86%e9%a2%91
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        </item>
-        <item>
         <title>邀请码实现方案</title>
-        <link>https://www.catguild.cn/posts/2023081401/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <link>https://www.catguild.cn/posts/2023091503/</link>
+        <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://www.catguild.cn/posts/2023081401/</guid>
+        <guid>https://www.catguild.cn/posts/2023091503/</guid>
         <description>&lt;h1 id=&#34;实现方案&#34;&gt;实现方案&lt;/h1&gt;
 &lt;h2 id=&#34;需求&#34;&gt;需求&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;前提条件：
@@ -2045,19 +1610,11 @@ fence的方式
 </description>
         </item>
         <item>
-        <title>邀请码实现方案</title>
-        <link>https://www.catguild.cn/posts/test/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.catguild.cn/posts/test/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>雪花算法</title>
-        <link>https://www.catguild.cn/posts/%E9%9B%AA%E8%8A%B1%E7%AE%97%E6%B3%95/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <link>https://www.catguild.cn/posts/2023091502/</link>
+        <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://www.catguild.cn/posts/%E9%9B%AA%E8%8A%B1%E7%AE%97%E6%B3%95/</guid>
+        <guid>https://www.catguild.cn/posts/2023091502/</guid>
         <description>&lt;h1 id=&#34;snowflake&#34;&gt;snowflake&lt;/h1&gt;
 &lt;p&gt;分布式id生成算法的有很多种，Twitter的雪花算法（SnowFlake）就是其中经典的一种。&lt;/p&gt;
 &lt;p&gt;SnowFlake算法的优点：&lt;/p&gt;
@@ -2302,6 +1859,59 @@ fence的方式
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;new BigInt64Array(4)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>内容分发网络CND</title>
+        <link>https://www.catguild.cn/posts/2020011501/</link>
+        <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/posts/2020011501/</guid>
+        <description>&lt;h1 id=&#34;cdn-含义&#34;&gt;CDN 含义&lt;/h1&gt;
+&lt;p&gt;内容分发网络（英语：Content Delivery Network或Content Distribution Network，缩写：CDN）是指一种透过互联网互相连接的电脑网络系统，利用最靠近每位用户的服务器，更快、更可靠地将音乐、图片、视频、应用程序及其他文件发送给用户，来提供高性能、可扩展性及低成本的网络内容传递给用户。&amp;mdash;引用自维基百科&lt;/p&gt;
+&lt;h1 id=&#34;cdn-服务&#34;&gt;CDN 服务&lt;/h1&gt;
+&lt;p&gt;CDN服务类似服务器的租赁服务，这些服务器一般都是CDN服务商的数据中心，这些服务器可以缓存我们的网站资源，类似一种高速缓存。但是我们无法直接登录这些服务器，但是可以设置一些服务商开放出来的数据管理策略，比如&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;静态资源压缩，减小资源传输体积，以提高传输速度和带宽利用率，最常见的压缩方案包括gzip和Brotli。&lt;/li&gt;
+&lt;li&gt;缓存策略，指定缓存的资源及缓存过期时间，以提供响应速度，并且降低了源服务器的访问压力。&lt;/li&gt;
+&lt;li&gt;安全策略，用以防止链接盗用，一般的CDN服务都是要付费的，可以设置安全策略，来访问其他人来使用你的CDN服务&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;cdn工作流程&#34;&gt;CDN工作流程&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;终端访问CDN加速域名&lt;/li&gt;
+&lt;li&gt;DNS服务解析CNAME记录（实际上就是获取CDN服务商的服务器地址，此时会返回一个里终端最近的服务器地址）&lt;/li&gt;
+&lt;li&gt;终端去访问DNS服务器返回的目标服务器地址&lt;/li&gt;
+&lt;li&gt;CDN服务器检查是否存在该资源
+4-1. 如果存在则直接返回该资源
+4-2. 如果不存在，则前往回源地址或回源host获取该资源，然后将其返回给终端&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;如何利用好cdn服务&#34;&gt;如何利用好CDN服务&lt;/h1&gt;
+&lt;p&gt;现在我们知道了CDN服务，实际就是在实际的资源机之间加了一个缓冲集群。终端将不再之间访问我们的资源机，而是是访问这个缓冲集群。如果访问到的节点中没有目标资源，该节点才会去资源机去拉取。故，要提高CDN服务的利用，就是要减少这个拉取动作，也可以说是回源率。另一方面，回源是难以避免的，所有提高回源效率，也会优化的访问速度。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;降低回源率：一般就是采用服务商提供的缓存机制，而要利用好缓存，就需要对资源站尽可能的静态化。&lt;/li&gt;
+&lt;li&gt;提高回源效果：对一些静态资源的访问，进行合并压缩处理，以减少访问次数，资源传输体积；或者提高资源站的带宽（这点可能会比较难，其实CDN的目的就是在带宽不变的前提下提高更快的访问服务）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;其实总结起来就是，缓存+减少数据传输量+减少访问次数
+而这三条，在CDN服务商提供的缓冲集群能做，在自己的资源机上也能做。这样就能尽可能的加快资源机的资源访问速度。&lt;/p&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://https://en.wikipedia.org/wiki/Content_delivery_network&#34;  title=&#34;Content delivery network&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Content delivery network - Wikipedia&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://wiki.mbalib.com/zh-tw/%E5%86%85%E5%AE%B9%E5%88%86%E5%8F%91%E7%BD%91%E7%BB%9C&#34;  title=&#34;內容分髮網絡- MBA智库百科&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;內容分髮網絡- MBA智库百科&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://www.cloudflare.com/zh-cn/learning/cdn/what-is-a-cdn&#34;  title=&#34;What is a CDN? | How do CDNs work? | Cloudflare&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;What is a CDN? | How do CDNs work? | Cloudflare&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/CNAME/9845877?fr=aladdin&#34;  title=&#34;CNAME - 百度百科&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CNAME - 百度百科&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/gzip/4487553?fr=aladdin&#34;  title=&#34;gzip - 百度百科&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;gzip - 百度百科&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/HTTP_compression&#34;  title=&#34;HTTP compression&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;HTTP compression&lt;/a&gt;&lt;/p&gt;
+</description>
         </item>
         
     </channel>

@@ -5,35 +5,13 @@
         <link>https://www.catguild.cn/</link>
         <description>Recent content on 雪乃の猫</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-cn</language><atom:link href="https://www.catguild.cn/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title></title>
-        <link>https://www.catguild.cn/category/redis/readme/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.catguild.cn/category/redis/readme/</guid>
-        <description>&lt;hr&gt;
-</description>
-        </item>
-        <item>
-        <title></title>
-        <link>https://www.catguild.cn/posts/%E8%AE%B0%E4%B8%80%E6%AC%A1durid%E6%95%B0%E6%8D%AE%E6%BA%90%E5%AF%BC%E8%87%B4%E7%9A%84%E7%94%9F%E4%BA%A7%E4%BA%8B%E6%95%85/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.catguild.cn/posts/%E8%AE%B0%E4%B8%80%E6%AC%A1durid%E6%95%B0%E6%8D%AE%E6%BA%90%E5%AF%BC%E8%87%B4%E7%9A%84%E7%94%9F%E4%BA%A7%E4%BA%8B%E6%95%85/</guid>
-        <description>&lt;h1 id=&#34;记一次生产事故&#34;&gt;记一次生产事故&lt;/h1&gt;
-&lt;p&gt;事故情景&lt;/p&gt;
-&lt;p&gt;表现&lt;/p&gt;
-&lt;p&gt;解决&lt;/p&gt;
-&lt;p&gt;原因&lt;/p&gt;
-&lt;p&gt;复盘&lt;/p&gt;
-</description>
-        </item>
-        <item>
+        <language>zh-cn</language>
+        <lastBuildDate>Fri, 15 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.catguild.cn/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>gRPC</title>
-        <link>https://www.catguild.cn/posts/gprc/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <link>https://www.catguild.cn/posts/2023091504/</link>
+        <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://www.catguild.cn/posts/gprc/</guid>
+        <guid>https://www.catguild.cn/posts/2023091504/</guid>
         <description>&lt;h1 id=&#34;protobuf语法&#34;&gt;protobuf语法&lt;/h1&gt;
 &lt;p&gt;文件格式&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-proto&#34; data-lang=&#34;proto&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;proto&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
@@ -102,321 +80,11 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
         </item>
         <item>
-        <title>markdown语法效果测试</title>
-        <link>https://www.catguild.cn/posts/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.catguild.cn/posts/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</guid>
-        <description>&lt;p&gt;这里是这篇文章的源文件：&lt;/p&gt;
-&lt;p&gt;测试各种样式的帖子哦&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;上面是分割线，看到了么？&lt;/p&gt;
-&lt;p&gt;段内格式测试：
-这里首先是紧接着的一段而不分行。然后是&lt;strong&gt;粗体&lt;/strong&gt;和&lt;em&gt;斜体&lt;/em&gt;，&lt;em&gt;&lt;strong&gt;粗斜体&lt;/strong&gt;&lt;/em&gt;，以及&lt;del&gt;删除线&lt;/del&gt;和&lt;code&gt;段内代码&lt;/code&gt;，最后就是注脚&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;下划线生成标题：&lt;/p&gt;
-&lt;h1 id=&#34;下划线标题1&#34;&gt;下划线标题1&lt;/h1&gt;
-&lt;h2 id=&#34;下划线标题2&#34;&gt;下划线标题2&lt;/h2&gt;
-&lt;p&gt;#Sharp标题1&lt;/p&gt;
-&lt;p&gt;##Sharp标题2&lt;/p&gt;
-&lt;p&gt;###Sharp标题3&lt;/p&gt;
-&lt;p&gt;####Sharp标题4&lt;/p&gt;
-&lt;p&gt;#####Sharp标题5&lt;/p&gt;
-&lt;p&gt;######Sharp标题6&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;lsquo;&amp;gt;&amp;lsquo;导出的引用代码块
-段内分行&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;两行结束代码块&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;引用块内样式：&lt;strong&gt;粗体&lt;/strong&gt;，&lt;em&gt;斜体&lt;/em&gt;，&lt;em&gt;&lt;strong&gt;粗斜体&lt;/strong&gt;&lt;/em&gt;，&lt;del&gt;删除线&lt;/del&gt;，&lt;code&gt;段内代码&lt;/code&gt;。
-第二用&amp;rsquo;&amp;gt;&amp;lsquo;继续引用块&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;双重引用块&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;p&gt;代码引用：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;  四个空格的方式
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;一换行就没了&lt;/p&gt;
-&lt;p&gt;[```] //不要这里的中括号哦。。。
-fence的方式
-这个方式不怕换行&lt;/p&gt;
-&lt;p&gt;怎么换都可以。&lt;/p&gt;
-&lt;p&gt;这里不能使用别的样式：&lt;strong&gt;粗体&lt;/strong&gt;，&lt;em&gt;斜体&lt;/em&gt;，&lt;del&gt;删除线&lt;/del&gt;，&lt;a class=&#34;link&#34; href=&#34;http://www.google.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;超链接&lt;/a&gt;
-[```] //不要这里的中括号哦。。。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;列表：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;有序列表1&lt;/li&gt;
-&lt;li&gt;有序列表2&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code&gt;- 子列表1
-- 子列表2
-  * 子子列表1
-  * 子子列表2
-    1. 子子子列表1
-    1. 子子子列表2
-    1. 子子子列表3
-  * 子子列表3
-- 子列表3
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ol&gt;
-&lt;li&gt;有序列表3&lt;/li&gt;
-&lt;li&gt;有序列表4&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;无序列表1&lt;/li&gt;
-&lt;li&gt;无序列表2&lt;/li&gt;
-&lt;li&gt;无序列表3&lt;/li&gt;
-&lt;li&gt;无序列表4&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;测试超链接：&lt;a class=&#34;link&#34; href=&#34;http://www.jianshu.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;直接适用URL&lt;/a&gt;和&lt;a class=&#34;link&#34; href=&#34;http://jianshu.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;使用引用URL&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;接着是图片：&lt;img src=&#34;https://img.58tg.com/up/allimg/tx23/120415025830516.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;这里是图片说明&#34;
-	
-	
-&gt;
-和引用式的用法：&lt;img src=&#34;https://img.58tg.com/up/allimg/tx23/120415025830516.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;这个是引用图片地址的方法哦&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://img.58tg.com/up/allimg/tx23/120415025830516.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;图片说明里也可以使用各种语法，比如粗体，斜体，删除线，段内代码&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;表格：&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;A&lt;/th&gt;
-&lt;th&gt;B&lt;/th&gt;
-&lt;th&gt;C&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;A1&lt;/td&gt;
-&lt;td&gt;B1&lt;/td&gt;
-&lt;td&gt;C1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;A2&lt;/td&gt;
-&lt;td&gt;B2&lt;/td&gt;
-&lt;td&gt;C2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;这是普通表格&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;左对齐&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;剧中&lt;/th&gt;
-&lt;th style=&#34;text-align:right&#34;&gt;右对齐&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;A1&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;B1&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;C1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;A2&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;B2&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;C2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;这是文艺表格&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;A&lt;/th&gt;
-&lt;th&gt;B&lt;/th&gt;
-&lt;th&gt;C&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;粗体&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;del&gt;删除&lt;/del&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;__另一种粗体__A2&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;另一个斜体&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;段内代码&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.twitter.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;超链接也可以&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;脚注&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;这是二逼表格&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;接下来是sanitize部分：&lt;/p&gt;
-  &lt;p&gt;p标签的使用&lt;/p&gt;
-  &lt;blockquote&gt;blockquote标签的使用&lt;/blockquote&gt;
-  &lt;pre&gt;pre标签&lt;/pre&gt;
-&lt;p&gt;&lt;code&gt;code标签&lt;/code&gt;&lt;/p&gt;
-  &lt;pre&gt;&lt;code&gt;pre和code&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;下面试试列表们&lt;/p&gt;
-  &lt;ol&gt;
-  &lt;li&gt;有序列表1&lt;/li&gt;
-  &lt;li&gt;有序列表2
-  &lt;ul&gt;
-  &lt;li&gt;子列表1&lt;/li&gt;
-  &lt;li&gt;子列表2
-  &lt;ul&gt;
-  &lt;li&gt;子子列表1&lt;/li&gt;
-  &lt;li&gt;子子列表2
-  &lt;ol&gt;
-  &lt;li&gt;子子子列表1&lt;/li&gt;
-  &lt;li&gt;子子子列表2&lt;/li&gt;
-  &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;子子列表3&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;子列表1&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;有序列表3&lt;/li&gt;
-  &lt;/ol&gt;
-&lt;p&gt;格式：
-&lt;b&gt;B粗体&lt;/b&gt;和&lt;strong&gt;STRONG粗体&lt;/strong&gt;
-&lt;i&gt;I斜体&lt;/i&gt;和&lt;em&gt;EM斜体&lt;/em&gt;
-&lt;u&gt;U下划线&lt;/u&gt;和&lt;strike&gt;STRIKE删除线&lt;/strike&gt;与&lt;del&gt;STRIKE删除线&lt;/del&gt;
-&lt;a&gt;超链接&lt;/a&gt;，&lt;cite&gt;CITE标记&lt;/cite&gt;，&lt;caption&gt;CAPTION标题&lt;/caption&gt;
-普通文字&lt;sup&gt;SUP上标&lt;/sup&gt;&lt;sub&gt;SUB下标&lt;/sub&gt;&lt;big&gt;BIG加大&lt;/big&gt;&lt;small&gt;SMALL减小&lt;/small&gt;
-带尺寸的IMAGE
-&lt;img src=&#34;https://img.58tg.com/up/allimg/tx23/120415025830516.jpg&#34; width=300 /&gt;&lt;/p&gt;
-&lt;p&gt;嗯，常用的基本就这些了。&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;这个就是注脚内容，写在文章最后&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:2&#34;&gt;
-&lt;p&gt;这个是第二条注脚内容，写在文章里面&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        </item>
-        <item>
-        <title>Python基本使用</title>
-        <link>https://www.catguild.cn/category/practical/python/%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.catguild.cn/category/practical/python/%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</guid>
-        <description>&lt;h1 id=&#34;基本安装&#34;&gt;基本安装&lt;/h1&gt;
-&lt;p&gt;1、到官网下载最新的版本&lt;/p&gt;
-&lt;h1 id=&#34;虚拟环境&#34;&gt;虚拟环境&lt;/h1&gt;
-&lt;p&gt;1、安装&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pip install pipenv
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;2、（选用）修改环境变量
-该环境会让虚拟环境创建再当前项目下，否则会创建默认位置&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;PIPENV_VENV_IN_PROJECT=1
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;3、到项目目录下&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pipenv install
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;该命令会创建虚拟环境目录，并生成  &lt;code&gt;Pipfile&lt;/code&gt; 和&lt;code&gt;Pipfile.lock&lt;/code&gt; 文件&lt;/p&gt;
-&lt;p&gt;4、安装依赖&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pipenv install package_name
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;5、国内源&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;阿里云 http://mirrors.aliyun.com/pypi/simple/
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;中国科技大学 https://pypi.mirrors.ustc.edu.cn/simple/
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;豆瓣(douban) http://pypi.douban.com/simple/
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;清华大学 https://pypi.tuna.tsinghua.edu.cn/simple/
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;中国科学技术大学 http://pypi.mirrors.ustc.edu.cn/simple/
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        </item>
-        <item>
-        <title>Redis分布式锁</title>
-        <link>https://www.catguild.cn/category/redis/redis%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.catguild.cn/category/redis/redis%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81/</guid>
-        <description>&lt;h1 id=&#34;为什么需要分布式锁&#34;&gt;为什么需要分布式锁&lt;/h1&gt;
-&lt;p&gt;单机场景下用的都是本地锁，针对的仅仅是一个jvm进程所管理的资源。当单体应用部署了多份的时候，一个jvm进程中本地锁是无法影响到另一个jvm进程的本地锁的，这样是无法保证资源的独占的。所以分布式锁应运而生。&lt;/p&gt;
-&lt;h1 id=&#34;一个靠谱的分布式锁需要具备哪些条件&#34;&gt;一个靠谱的分布式锁需要具备哪些条件&lt;/h1&gt;
-&lt;p&gt;首先需要考虑一个合格的分布式锁需要具备哪些条件。
-一个锁需要具备的基本功能
-1、独占性：任何时候都仅能有一个线程获取该锁。这是任何一个锁最基础的功能，毕竟锁就是为了解决资源竞争产生的不一致问题。
-2、不乱抢：当前线程加的锁，只能有当前线程来解锁，也不能去unlock其它线程加的锁。
-3、可重入性：在当前线程中，如果已经获取了该锁，之后将可以自动再次获取这个锁。
-在分布式环境需要额外考虑的问题
-1、防止死锁：要能杜绝死锁，要有兜底方案，例如能支持撤销操作或者可以超时自动释放
-2、高可用：性能要好，能支撑高并发请求，不能因为某节点不可用，就导致获取锁或者释放失败&lt;/p&gt;
-&lt;h1 id=&#34;如果自己来实现一个分布式锁该如何做&#34;&gt;如果自己来实现一个分布式锁该如何做&lt;/h1&gt;
-&lt;p&gt;自然是围绕了如何实现上面靠谱的分布式锁具备的条件了。&lt;/p&gt;
-&lt;h2 id=&#34;前置准备工作&#34;&gt;前置准备工作&lt;/h2&gt;
-&lt;p&gt;1、选择外部存储介质
-因为需要让不同的jvm进程都能访问到存放锁的资源点，那么就需要依赖jvm外部的存储介质了。一般来说就是 数据库（关系型或nosql）、微服务里的配置中心（支持多个服务来读存数据）。那么这里就先用目前最常用的nosql数据库 Redis 为例来实现了。
-2、代码实现规范
-分布式锁必然有多种实现方式，那自然应该是基于接口来编程，那么直接实现jdk中的lock接口就是最好的方式。&lt;/p&gt;
-&lt;h2 id=&#34;测试准备&#34;&gt;测试准备&lt;/h2&gt;
-&lt;p&gt;准备一个多实例，支持并发请求的测试环境，来验证是否代码是否通过。&lt;/p&gt;
-&lt;h2 id=&#34;分步来实现分布式锁应具备的功能&#34;&gt;分步来实现分布式锁应具备的功能&lt;/h2&gt;
-&lt;p&gt;1、独占性
-只需要在存储介质上留下个锁标记即可，如果其他线程能查询到这个标识，那就说明该资源已经上锁，否则则表示无锁，可以上锁。&lt;/p&gt;
-&lt;h1 id=&#34;有什么成熟的解决方案&#34;&gt;有什么成熟的解决方案&lt;/h1&gt;
-&lt;h1 id=&#34;需要注意些什么&#34;&gt;需要注意些什么&lt;/h1&gt;
-</description>
-        </item>
-        <item>
-        <title>Redis基础数据类型</title>
-        <link>https://www.catguild.cn/category/redis/redis%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.catguild.cn/category/redis/redis%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</guid>
-        <description>&lt;h1 id=&#34;页面内容2&#34;&gt;页面内容2&lt;/h1&gt;
-</description>
-        </item>
-        <item>
-        <title>Redis面试题</title>
-        <link>https://www.catguild.cn/category/redis/redis%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.catguild.cn/category/redis/redis%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
-        <description>&lt;p&gt;1、Redis除了拿来做缓存&lt;/p&gt;
-</description>
-        </item>
-        <item>
         <title>Spring Task定时任务</title>
-        <link>https://www.catguild.cn/posts/spring%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <link>https://www.catguild.cn/posts/2023091505/</link>
+        <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://www.catguild.cn/posts/spring%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1/</guid>
+        <guid>https://www.catguild.cn/posts/2023091505/</guid>
         <description>&lt;h1 id=&#34;初认识&#34;&gt;初认识&lt;/h1&gt;
 &lt;h2 id=&#34;基本使用&#34;&gt;基本使用&lt;/h2&gt;
 &lt;h4 id=&#34;1添加基本依赖&#34;&gt;1、添加基本依赖&lt;/h4&gt;
@@ -1621,10 +1289,10 @@ fence的方式
         </item>
         <item>
         <title>SpringBoot初始化方法</title>
-        <link>https://www.catguild.cn/posts/springboot%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%B3%95/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <link>https://www.catguild.cn/posts/2023091506/</link>
+        <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://www.catguild.cn/posts/springboot%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%B3%95/</guid>
+        <guid>https://www.catguild.cn/posts/2023091506/</guid>
         <description>&lt;h1 id=&#34;总览&#34;&gt;总览&lt;/h1&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -1771,357 +1439,11 @@ fence的方式
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
         </item>
         <item>
-        <title>关于</title>
-        <link>https://www.catguild.cn/about/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.catguild.cn/about/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>内容分发网络CND</title>
-        <link>https://www.catguild.cn/posts/%E5%86%85%E5%AE%B9%E5%88%86%E5%8F%91%E7%BD%91%E7%BB%9Ccnd/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.catguild.cn/posts/%E5%86%85%E5%AE%B9%E5%88%86%E5%8F%91%E7%BD%91%E7%BB%9Ccnd/</guid>
-        <description>&lt;h1 id=&#34;cdn-含义&#34;&gt;CDN 含义&lt;/h1&gt;
-&lt;p&gt;内容分发网络（英语：Content Delivery Network或Content Distribution Network，缩写：CDN）是指一种透过互联网互相连接的电脑网络系统，利用最靠近每位用户的服务器，更快、更可靠地将音乐、图片、视频、应用程序及其他文件发送给用户，来提供高性能、可扩展性及低成本的网络内容传递给用户。&amp;mdash;引用自维基百科&lt;/p&gt;
-&lt;h1 id=&#34;cdn-服务&#34;&gt;CDN 服务&lt;/h1&gt;
-&lt;p&gt;CDN服务类似服务器的租赁服务，这些服务器一般都是CDN服务商的数据中心，这些服务器可以缓存我们的网站资源，类似一种高速缓存。但是我们无法直接登录这些服务器，但是可以设置一些服务商开放出来的数据管理策略，比如&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;静态资源压缩，减小资源传输体积，以提高传输速度和带宽利用率，最常见的压缩方案包括gzip和Brotli。&lt;/li&gt;
-&lt;li&gt;缓存策略，指定缓存的资源及缓存过期时间，以提供响应速度，并且降低了源服务器的访问压力。&lt;/li&gt;
-&lt;li&gt;安全策略，用以防止链接盗用，一般的CDN服务都是要付费的，可以设置安全策略，来访问其他人来使用你的CDN服务&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;cdn工作流程&#34;&gt;CDN工作流程&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;终端访问CDN加速域名&lt;/li&gt;
-&lt;li&gt;DNS服务解析CNAME记录（实际上就是获取CDN服务商的服务器地址，此时会返回一个里终端最近的服务器地址）&lt;/li&gt;
-&lt;li&gt;终端去访问DNS服务器返回的目标服务器地址&lt;/li&gt;
-&lt;li&gt;CDN服务器检查是否存在该资源
-4-1. 如果存在则直接返回该资源
-4-2. 如果不存在，则前往回源地址或回源host获取该资源，然后将其返回给终端&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&#34;如何利用好cdn服务&#34;&gt;如何利用好CDN服务&lt;/h1&gt;
-&lt;p&gt;现在我们知道了CDN服务，实际就是在实际的资源机之间加了一个缓冲集群。终端将不再之间访问我们的资源机，而是是访问这个缓冲集群。如果访问到的节点中没有目标资源，该节点才会去资源机去拉取。故，要提高CDN服务的利用，就是要减少这个拉取动作，也可以说是回源率。另一方面，回源是难以避免的，所有提高回源效率，也会优化的访问速度。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;降低回源率：一般就是采用服务商提供的缓存机制，而要利用好缓存，就需要对资源站尽可能的静态化。&lt;/li&gt;
-&lt;li&gt;提高回源效果：对一些静态资源的访问，进行合并压缩处理，以减少访问次数，资源传输体积；或者提高资源站的带宽（这点可能会比较难，其实CDN的目的就是在带宽不变的前提下提高更快的访问服务）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;其实总结起来就是，缓存+减少数据传输量+减少访问次数
-而这三条，在CDN服务商提供的缓冲集群能做，在自己的资源机上也能做。这样就能尽可能的加快资源机的资源访问速度。&lt;/p&gt;
-&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://https://en.wikipedia.org/wiki/Content_delivery_network&#34;  title=&#34;Content delivery network&#34;
-     target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Content delivery network - Wikipedia&lt;/a&gt;
-&lt;a class=&#34;link&#34; href=&#34;https://wiki.mbalib.com/zh-tw/%E5%86%85%E5%AE%B9%E5%88%86%E5%8F%91%E7%BD%91%E7%BB%9C&#34;  title=&#34;內容分髮網絡- MBA智库百科&#34;
-     target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;內容分髮網絡- MBA智库百科&lt;/a&gt;
-&lt;a class=&#34;link&#34; href=&#34;https://www.cloudflare.com/zh-cn/learning/cdn/what-is-a-cdn&#34;  title=&#34;What is a CDN? | How do CDNs work? | Cloudflare&#34;
-     target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;What is a CDN? | How do CDNs work? | Cloudflare&lt;/a&gt;
-&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/CNAME/9845877?fr=aladdin&#34;  title=&#34;CNAME - 百度百科&#34;
-     target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;CNAME - 百度百科&lt;/a&gt;
-&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/gzip/4487553?fr=aladdin&#34;  title=&#34;gzip - 百度百科&#34;
-     target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;gzip - 百度百科&lt;/a&gt;
-&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/HTTP_compression&#34;  title=&#34;HTTP compression&#34;
-     target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;HTTP compression&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>友链</title>
-        <link>https://www.catguild.cn/links/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.catguild.cn/links/</guid>
-        <description>&lt;a target=&#34;_blank&#34; href=https://www.soulchild.cn/ title=SoulChild随笔记 class=&#34;friendurl&#34;&gt;
-  &lt;div class=&#34;frienddiv&#34;&gt;
-    &lt;div class=&#34;frienddivleft&#34;&gt;
-      &lt;img class=&#34;myfriend&#34; src=https://www.soulchild.cn/images/avatar.png /&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;frienddivright&#34;&gt;
-      &lt;div class=&#34;friendname&#34;&gt;SoulChild随笔记&lt;/div&gt;
-      &lt;div class=&#34;friendinfo&#34;&gt;SoulChild随笔记&lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/a&gt;
-</description>
-        </item>
-        <item>
-        <title>归档</title>
-        <link>https://www.catguild.cn/archives/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.catguild.cn/archives/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>我是文章标题</title>
-        <link>https://www.catguild.cn/posts/hugo%E6%96%87%E7%AB%A0%E5%B1%9E%E6%80%A7%E6%B5%8B%E8%AF%95/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.catguild.cn/posts/hugo%E6%96%87%E7%AB%A0%E5%B1%9E%E6%80%A7%E6%B5%8B%E8%AF%95/</guid>
-        <description>&lt;p&gt;测试文章属性值使用&lt;/p&gt;
-&lt;h1 id=&#34;目录1&#34;&gt;目录1&lt;/h1&gt;
-&lt;h2 id=&#34;目录12&#34;&gt;目录1.2&lt;/h2&gt;
-&lt;h1 id=&#34;目录2&#34;&gt;目录2&lt;/h1&gt;
-&lt;h2 id=&#34;目录21&#34;&gt;目录2.1&lt;/h2&gt;
-&lt;h3 id=&#34;目录211&#34;&gt;目录2.1.1&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  system&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;hello world&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;);&lt;/span&gt;	
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;测试相册&#34;&gt;测试相册&lt;/h1&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[comment]: &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&amp;lt;&lt;/span&gt;&amp;gt; 使用的时候把前面的a去掉
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;galleries&lt;/span&gt; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;gallery&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.sulvblog.cn/image/16_IMG_20220430_202353.png&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;香克斯&amp;#34;&lt;/span&gt;&amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;gallery&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.sulvblog.cn/image/17_IMG_20220430_202228.png&amp;#34;&lt;/span&gt; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;gallery&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.sulvblog.cn/image/19_IMG_20220430_200901.png&amp;#34;&lt;/span&gt; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;gallery&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.sulvblog.cn/image/16_IMG_20220430_202353.png&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;香克斯&amp;#34;&lt;/span&gt; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;gallery&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.sulvblog.cn/image/17_IMG_20220430_202228.png&amp;#34;&lt;/span&gt; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;gallery&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.sulvblog.cn/image/19_IMG_20220430_200901.png&amp;#34;&lt;/span&gt; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;gallery&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.sulvblog.cn/image/16_IMG_20220430_202353.png&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;香克斯&amp;#34;&lt;/span&gt; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;gallery&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.sulvblog.cn/image/17_IMG_20220430_202228.png&amp;#34;&lt;/span&gt; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;gallery&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.sulvblog.cn/image/19_IMG_20220430_200901.png&amp;#34;&lt;/span&gt; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; /&lt;span style=&#34;color:#f92672&#34;&gt;galleries&lt;/span&gt; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;————————————————
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;版权声明：本文为「Sulv&amp;#39;s Blog」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;原文链接：https://www.sulvblog.cn/posts/blog/hugo_gallery/
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;!DOCTYPE html&gt;
-&lt;html lang=&#34;en&#34;&gt;
-&lt;head&gt;
-    &lt;meta name=&#34;viewport&#34; content=&#34;user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1&#34;&gt;
-    &lt;script src=&#34;https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js&#34;&gt;&lt;/script&gt;
-    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdn.jsdelivr.net/npm/nanogallery2@3.0.5/dist/css/nanogallery2.min.css&#34;&gt;
-    &lt;script src=&#34;https://cdn.jsdelivr.net/npm/nanogallery2@3.0.5/dist/jquery.nanogallery2.min.js&#34;&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-
-&lt;div data-nanogallery2=&#39;{
-	 &#34;thumbnailDisplayTransition&#34;:          &#34;none&#34;,
-     &#34;thumbnailDisplayTransitionDuration&#34;:  500,
-     &#34;thumbnailDisplayInterval&#34;:            30,
-     &#34;galleryDisplayTransition&#34;:            &#34;none&#34;,
-     &#34;galleryDisplayTransitionDuration&#34;:    500,
-     &#34;galleryDisplayMode&#34;: &#34;rows&#34;,
-     &#34;thumbnailDisplayOutsideScreen&#34;: &#34;false&#34;,
-     &#34;eventsDebounceDelay&#34;: 10,
-     &#34;thumbnailL1BorderHorizontal&#34;: 0,
-     &#34;thumbnailL1BorderVertical&#34;: 0,
-     &#34;thumbnailLabel&#34;: {
-        &#34;titleFontSize&#34;: &#34;0.6em&#34;
-     },
-     &#34;thumbnailHoverEffect2&#34;: &#34;image_scale_1.00_1.10|label_backgroundColor_rgba(0,0,0,0)_rgba(255,255,255,0)&#34;,
-     &#34;galleryTheme&#34;: {
-        &#34;thumbnail&#34;: {
-            &#34;borderRadius&#34;: &#34;8px&#34;
-        }
-     },
-     &#34;thumbnailToolbarImage&#34;: {
-        &#34;topLeft&#34;: &#34;&#34;,
-        &#34;topRight&#34;: &#34;&#34;,
-        &#34;bottomLeft&#34;: &#34;&#34;,
-        &#34;bottomRight&#34;: &#34;&#34;
-     },
-     &#34;viewerToolbar&#34;:   {
-        &#34;display&#34;: true,
-        &#34;standard&#34;: &#34;label&#34;
-     },
-     &#34;viewerTools&#34;:     {
-        &#34;topLeft&#34;:    &#34;pageCounter, playPauseButton&#34;,
-        &#34;topRight&#34;:   &#34;downloadButton, rotateLeft, zoomButton, fullscreenButton, closeButton&#34;
-     },
-     &#34;viewerGalleryTWidth&#34;: 40,
-     &#34;viewerGalleryTHeight&#34;: 40
-}&#39;&gt;
-    
-&lt;a href=&#34;https://www.sulvblog.cn/image/16_IMG_20220430_202353.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/16_IMG_20220430_202353.png&#34;&gt;香克斯&lt;/a&gt;
-&lt;a href=&#34;https://www.sulvblog.cn/image/17_IMG_20220430_202228.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/17_IMG_20220430_202228.png&#34;&gt;&lt;/a&gt;
-&lt;a href=&#34;https://www.sulvblog.cn/image/19_IMG_20220430_200901.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/19_IMG_20220430_200901.png&#34;&gt;&lt;/a&gt;
-&lt;a href=&#34;https://www.sulvblog.cn/image/16_IMG_20220430_202353.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/16_IMG_20220430_202353.png&#34;&gt;香克斯&lt;/a&gt;
-&lt;a href=&#34;https://www.sulvblog.cn/image/17_IMG_20220430_202228.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/17_IMG_20220430_202228.png&#34;&gt;&lt;/a&gt;
-&lt;a href=&#34;https://www.sulvblog.cn/image/19_IMG_20220430_200901.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/19_IMG_20220430_200901.png&#34;&gt;&lt;/a&gt;
-&lt;a href=&#34;https://www.sulvblog.cn/image/16_IMG_20220430_202353.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/16_IMG_20220430_202353.png&#34;&gt;香克斯&lt;/a&gt;
-&lt;a href=&#34;https://www.sulvblog.cn/image/17_IMG_20220430_202228.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/17_IMG_20220430_202228.png&#34;&gt;&lt;/a&gt;
-&lt;a href=&#34;https://www.sulvblog.cn/image/19_IMG_20220430_200901.png&#34; data-ngThumb=&#34;https://www.sulvblog.cn/image/19_IMG_20220430_200901.png&#34;&gt;&lt;/a&gt;
-
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-
-&lt;h1 id=&#34;插入功能&#34;&gt;插入功能&lt;/h1&gt;
-&lt;h2 id=&#34;ppt&#34;&gt;ppt&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;ppt&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ppt网址&amp;#34;&lt;/span&gt; &amp;gt;}} 
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 使用的时候把字母a去掉，我加上是为了防止被识别生效
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;————————————————
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;版权声明：本文为「Sulv&amp;#39;s Blog」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;原文链接：https://www.sulvblog.cn/posts/blog/shortcodes/#61-ppt-%e5%b1%95%e7%a4%ba
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;bilibili-视频&#34;&gt;bilibili 视频&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;bilibili&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;BV1xW4y1a7NK&lt;/span&gt; &amp;gt;}}  
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 使用的时候把字母a去掉，我加上是为了防止被识别生效
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# BV1Ab4y117G2 指的是 bilibili 链接中的 bvid
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 如果有集数（默认第一集），例如要播放第5集，则这样使用：{a{&amp;lt; bilibili BV1xW4y1a7NK 5 &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;————————————————
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;版权声明：本文为「Sulv&amp;#39;s Blog」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;原文链接：https://www.sulvblog.cn/posts/blog/shortcodes/#62-bilibili-%e8%a7%86%e9%a2%91
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;youtube-视频&#34;&gt;youtube 视频&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;youtube&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;WsptdUFthWI&lt;/span&gt; &amp;gt;}}  
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 使用的时候把字母a去掉，我加上是为了防止被识别生效
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;————————————————
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;版权声明：本文为「Sulv&amp;#39;s Blog」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;原文链接：https://www.sulvblog.cn/posts/blog/shortcodes/#63-youtube-%e8%a7%86%e9%a2%91
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;博客文章内链&#34;&gt;博客文章内链&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;innerlink&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;posts/tech/go_slice_map_thread_safety.md&amp;#34;&lt;/span&gt; &amp;gt;}}  
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 使用的时候把字母a去掉，我加上是为了防止被识别生效
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 注意：结尾要加md，开头不用加域名
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 卡片获取的文章长度默认是70，需要在config.yaml配置文件添加 summaryLength: 140，即设置为140
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;————————————————
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;版权声明：本文为「Sulv&amp;#39;s Blog」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;原文链接：https://www.sulvblog.cn/posts/blog/shortcodes/#63-youtube-%e8%a7%86%e9%a2%91
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;豆瓣阅读和电影卡片&#34;&gt;豆瓣阅读和电影卡片&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{a{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;douban&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;直接放网址如：https://book.douban.com/subject/20394150/&amp;#34;&lt;/span&gt; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 使用的时候把字母a去掉，我加上是为了防止被识别生效
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;————————————————
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;版权声明：本文为「Sulv&amp;#39;s Blog」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;原文链接：https://www.sulvblog.cn/posts/blog/shortcodes/#63-youtube-%e8%a7%86%e9%a2%91
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        </item>
-        <item>
-        <title>搜索</title>
-        <link>https://www.catguild.cn/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.catguild.cn/search/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>爬虫</title>
-        <link>https://www.catguild.cn/category/practical/python/%E7%88%AC%E8%99%AB/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.catguild.cn/category/practical/python/%E7%88%AC%E8%99%AB/</guid>
-        <description>&lt;h1 id=&#34;爬虫框架-scrapy&#34;&gt;爬虫框架 scrapy&lt;/h1&gt;
-&lt;p&gt;1、创建新项目&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;scrapy startproject tutorial
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;2、创建爬虫文件&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 创建普通模版&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;scrapy genspider 爬虫名字 爬取的域名（不用协议头）
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 创建 crawl spider 模版&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;scrapy genspider -t crawl 爬虫名字 爬取的域名（不用协议头）
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;3、启动爬虫&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;scrapy crawl 爬虫名字
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;项目文件结构&#34;&gt;项目文件结构&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;项目名字
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	项目名字
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		spiders文件夹（存储的是爬虫文件）
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;			init
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;			自定义的爬虫文件		核心功能文件
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		init
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		items		定义数据结构的地方		爬取的数据包含那些
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		middleware		中间件		代理
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		settings		配置文件		robots协议		ua定义等
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;response的属性和方法&#34;&gt;response的属性和方法&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;response.text	获取的是响应的字符串
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;response.body	获取的是二进制数据
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;response.xpath	可以直接是xpath方法来解析response中的内容
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;response.extract()	提取seletor对象的data属性值
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;response.extract_first()	提取seletor列表的第一个数据
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;setting&#34;&gt;setting&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 需要使用管道，需要打开该设置
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ITEM_PIPELINES = {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	# 管道可以有多个，并有有优先级，值从1-1000，值越小越高
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#39;项目名.pipelines.管道名&amp;#39;: 300
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;下载图片&#34;&gt;下载图片&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; urllib.request
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;DownLoadPipeline&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;process_item&lt;/span&gt;(self, item, spider):
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        url &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; item&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;url&amp;#39;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        filename&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;http://&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; item&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;name&amp;#39;&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;.jpg&amp;#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        urllib&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;request&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;urlretrieve(url &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; url, filename &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; filename)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; item
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;部署&#34;&gt;部署&lt;/h2&gt;
-&lt;p&gt;scrapy部署服务器有一套完整的开源项目：&lt;strong&gt;scrapy+scrapyd(服务端)+scrapy-client(客户端)+scrapydweb&lt;/strong&gt;
-1、scrapyd(服务端)&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 官方文档
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;https://scrapyd.readthedocs.io
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 安装
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pipenv install scrapyd
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 启动
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;scrapyd
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 浏览器访问
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;http://127.0.0.1:6800
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;2、scrapy-client
-scrapy-client它允许我们将本地的scrapy项目打包发送到scrapyd 这个服务端（前提是服务器scrapyd正常运行）&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 官方文档
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;https://pypi.org/project/scrapyd-client/
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 安装
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pipenv install scrapyd-client
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;3、scrapydweb（可选）&lt;/p&gt;
-&lt;p&gt;ScrapydWeb：用于Scrapyd集群管理的Web应用程序，支持Scrapy日志分析和可视化。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;#官方文档
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;https://github.com/my8100/scrapydweb/blob/master/README_CN.md
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 安装
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pipenv install scrapydweb
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 运行命令
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;scrapydweb
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;运行命令scrapydweb，首次启动将会在当前目录下生成配置文件“scrapydweb_settings_v*.py”&lt;/p&gt;
-&lt;p&gt;1、更改配置文件 编辑配置文件，将ENABLE_LOGPARSER更改为False&lt;/p&gt;
-&lt;p&gt;2、添加访问权限&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SCRAPYD_SERVERS = [
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;#39;127.0.0.1:6800&amp;#39;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    # &amp;#39;username:password@localhost:6801#group&amp;#39;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (&amp;#39;username&amp;#39;, &amp;#39;password&amp;#39;, &amp;#39;localhost&amp;#39;, &amp;#39;6801&amp;#39;, &amp;#39;group&amp;#39;),
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;]
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;3、添加http认证&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ENABLE_AUTH = True
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;USERNAME = &amp;#39;username&amp;#39;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;PASSWORD = &amp;#39;password&amp;#39;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;如果启动失败一般是使用了高版本的python&#34;&gt;如果启动失败（一般是使用了高版本的python）&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 400 错误
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;APScheduler==3.9.1
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 500 错误
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SQLAlchemy&amp;gt;=1.2.15,&amp;lt;1.4.0
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        </item>
-        <item>
-        <title>线程中断</title>
-        <link>https://www.catguild.cn/category/juc/%E7%BA%BF%E7%A8%8B%E4%B8%AD%E6%96%AD/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.catguild.cn/category/juc/%E7%BA%BF%E7%A8%8B%E4%B8%AD%E6%96%AD/</guid>
-        <description>&lt;h1 id=&#34;线程中断机制&#34;&gt;线程中断机制&lt;/h1&gt;
-&lt;h1 id=&#34;locksupport类&#34;&gt;LockSupport类&lt;/h1&gt;
-&lt;p&gt;简介：用于创建锁和其他同步类的基本线程阻塞原语&lt;/p&gt;
-&lt;p&gt;该类与使用它的每个线程关联一个许可证（在Semaphore类的意义上）。如果许可证可用，将立即返回park，并在此过程中消费；否则可能会阻止。如果尚未提供许可，则致电unpark获取许可（与Semaphore不同，许可证不会累积，最多只有一个）&lt;/p&gt;
-&lt;p&gt;主要api：park与unpark方法，需要成对使用。&lt;/p&gt;
-&lt;p&gt;park：除非许可证可用，否则禁用当前线程以进行线程调度。【作用：阻塞线程】&lt;/p&gt;
-&lt;p&gt;unaprk：如果给定线程尚不可用，则为其提供许可。【作用：解除阻塞线程】&lt;/p&gt;
-&lt;p&gt;底层调用的是unsafe类，&lt;/p&gt;
-&lt;p&gt;使用场景：&lt;/p&gt;
-&lt;h1 id=&#34;线程阻塞唤醒的方法&#34;&gt;线程阻塞唤醒的方法&lt;/h1&gt;
-&lt;p&gt;有3种方式&lt;/p&gt;
-&lt;p&gt;1、使用Object中的wait()方法让线程等待，使用Object中的notify()方法唤醒线程&lt;/p&gt;
-&lt;p&gt;2、使用JUC包中Condition的await()方法让线程等待，使用signal()方法唤醒线程&lt;/p&gt;
-&lt;p&gt;3、 LockSupport类可以阻塞当前线程以及唤醒指定被阻塞线程&lt;/p&gt;
-&lt;h1 id=&#34;线程等待唤醒机制&#34;&gt;线程等待唤醒机制&lt;/h1&gt;
-</description>
-        </item>
-        <item>
         <title>邀请码实现方案</title>
-        <link>https://www.catguild.cn/posts/2023081401/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <link>https://www.catguild.cn/posts/2023091503/</link>
+        <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://www.catguild.cn/posts/2023081401/</guid>
+        <guid>https://www.catguild.cn/posts/2023091503/</guid>
         <description>&lt;h1 id=&#34;实现方案&#34;&gt;实现方案&lt;/h1&gt;
 &lt;h2 id=&#34;需求&#34;&gt;需求&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;前提条件：
@@ -2288,19 +1610,11 @@ scrapy-client它允许我们将本地的scrapy项目打包发送到scrapyd 这�
 </description>
         </item>
         <item>
-        <title>邀请码实现方案</title>
-        <link>https://www.catguild.cn/posts/test/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://www.catguild.cn/posts/test/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>雪花算法</title>
-        <link>https://www.catguild.cn/posts/%E9%9B%AA%E8%8A%B1%E7%AE%97%E6%B3%95/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <link>https://www.catguild.cn/posts/2023091502/</link>
+        <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://www.catguild.cn/posts/%E9%9B%AA%E8%8A%B1%E7%AE%97%E6%B3%95/</guid>
+        <guid>https://www.catguild.cn/posts/2023091502/</guid>
         <description>&lt;h1 id=&#34;snowflake&#34;&gt;snowflake&lt;/h1&gt;
 &lt;p&gt;分布式id生成算法的有很多种，Twitter的雪花算法（SnowFlake）就是其中经典的一种。&lt;/p&gt;
 &lt;p&gt;SnowFlake算法的优点：&lt;/p&gt;
@@ -2545,6 +1859,534 @@ scrapy-client它允许我们将本地的scrapy项目打包发送到scrapyd 这�
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;new BigInt64Array(4)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>内容分发网络CND</title>
+        <link>https://www.catguild.cn/posts/2020011501/</link>
+        <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/posts/2020011501/</guid>
+        <description>&lt;h1 id=&#34;cdn-含义&#34;&gt;CDN 含义&lt;/h1&gt;
+&lt;p&gt;内容分发网络（英语：Content Delivery Network或Content Distribution Network，缩写：CDN）是指一种透过互联网互相连接的电脑网络系统，利用最靠近每位用户的服务器，更快、更可靠地将音乐、图片、视频、应用程序及其他文件发送给用户，来提供高性能、可扩展性及低成本的网络内容传递给用户。&amp;mdash;引用自维基百科&lt;/p&gt;
+&lt;h1 id=&#34;cdn-服务&#34;&gt;CDN 服务&lt;/h1&gt;
+&lt;p&gt;CDN服务类似服务器的租赁服务，这些服务器一般都是CDN服务商的数据中心，这些服务器可以缓存我们的网站资源，类似一种高速缓存。但是我们无法直接登录这些服务器，但是可以设置一些服务商开放出来的数据管理策略，比如&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;静态资源压缩，减小资源传输体积，以提高传输速度和带宽利用率，最常见的压缩方案包括gzip和Brotli。&lt;/li&gt;
+&lt;li&gt;缓存策略，指定缓存的资源及缓存过期时间，以提供响应速度，并且降低了源服务器的访问压力。&lt;/li&gt;
+&lt;li&gt;安全策略，用以防止链接盗用，一般的CDN服务都是要付费的，可以设置安全策略，来访问其他人来使用你的CDN服务&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;cdn工作流程&#34;&gt;CDN工作流程&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;终端访问CDN加速域名&lt;/li&gt;
+&lt;li&gt;DNS服务解析CNAME记录（实际上就是获取CDN服务商的服务器地址，此时会返回一个里终端最近的服务器地址）&lt;/li&gt;
+&lt;li&gt;终端去访问DNS服务器返回的目标服务器地址&lt;/li&gt;
+&lt;li&gt;CDN服务器检查是否存在该资源
+4-1. 如果存在则直接返回该资源
+4-2. 如果不存在，则前往回源地址或回源host获取该资源，然后将其返回给终端&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;如何利用好cdn服务&#34;&gt;如何利用好CDN服务&lt;/h1&gt;
+&lt;p&gt;现在我们知道了CDN服务，实际就是在实际的资源机之间加了一个缓冲集群。终端将不再之间访问我们的资源机，而是是访问这个缓冲集群。如果访问到的节点中没有目标资源，该节点才会去资源机去拉取。故，要提高CDN服务的利用，就是要减少这个拉取动作，也可以说是回源率。另一方面，回源是难以避免的，所有提高回源效率，也会优化的访问速度。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;降低回源率：一般就是采用服务商提供的缓存机制，而要利用好缓存，就需要对资源站尽可能的静态化。&lt;/li&gt;
+&lt;li&gt;提高回源效果：对一些静态资源的访问，进行合并压缩处理，以减少访问次数，资源传输体积；或者提高资源站的带宽（这点可能会比较难，其实CDN的目的就是在带宽不变的前提下提高更快的访问服务）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;其实总结起来就是，缓存+减少数据传输量+减少访问次数
+而这三条，在CDN服务商提供的缓冲集群能做，在自己的资源机上也能做。这样就能尽可能的加快资源机的资源访问速度。&lt;/p&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://https://en.wikipedia.org/wiki/Content_delivery_network&#34;  title=&#34;Content delivery network&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Content delivery network - Wikipedia&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://wiki.mbalib.com/zh-tw/%E5%86%85%E5%AE%B9%E5%88%86%E5%8F%91%E7%BD%91%E7%BB%9C&#34;  title=&#34;內容分髮網絡- MBA智库百科&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;內容分髮網絡- MBA智库百科&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://www.cloudflare.com/zh-cn/learning/cdn/what-is-a-cdn&#34;  title=&#34;What is a CDN? | How do CDNs work? | Cloudflare&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;What is a CDN? | How do CDNs work? | Cloudflare&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/CNAME/9845877?fr=aladdin&#34;  title=&#34;CNAME - 百度百科&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CNAME - 百度百科&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/gzip/4487553?fr=aladdin&#34;  title=&#34;gzip - 百度百科&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;gzip - 百度百科&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/HTTP_compression&#34;  title=&#34;HTTP compression&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;HTTP compression&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title></title>
+        <link>https://www.catguild.cn/draft/redis/readme/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/draft/redis/readme/</guid>
+        <description>&lt;hr&gt;
+</description>
+        </item>
+        <item>
+        <title>markdown语法效果测试</title>
+        <link>https://www.catguild.cn/test/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/test/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</guid>
+        <description>&lt;p&gt;这里是这篇文章的源文件：&lt;/p&gt;
+&lt;p&gt;测试各种样式的帖子哦&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;上面是分割线，看到了么？&lt;/p&gt;
+&lt;p&gt;段内格式测试：
+这里首先是紧接着的一段而不分行。然后是&lt;strong&gt;粗体&lt;/strong&gt;和&lt;em&gt;斜体&lt;/em&gt;，&lt;em&gt;&lt;strong&gt;粗斜体&lt;/strong&gt;&lt;/em&gt;，以及&lt;del&gt;删除线&lt;/del&gt;和&lt;code&gt;段内代码&lt;/code&gt;，最后就是注脚&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;下划线生成标题：&lt;/p&gt;
+&lt;h1 id=&#34;下划线标题1&#34;&gt;下划线标题1&lt;/h1&gt;
+&lt;h2 id=&#34;下划线标题2&#34;&gt;下划线标题2&lt;/h2&gt;
+&lt;p&gt;#Sharp标题1&lt;/p&gt;
+&lt;p&gt;##Sharp标题2&lt;/p&gt;
+&lt;p&gt;###Sharp标题3&lt;/p&gt;
+&lt;p&gt;####Sharp标题4&lt;/p&gt;
+&lt;p&gt;#####Sharp标题5&lt;/p&gt;
+&lt;p&gt;######Sharp标题6&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;lsquo;&amp;gt;&amp;lsquo;导出的引用代码块
+段内分行&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;两行结束代码块&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;引用块内样式：&lt;strong&gt;粗体&lt;/strong&gt;，&lt;em&gt;斜体&lt;/em&gt;，&lt;em&gt;&lt;strong&gt;粗斜体&lt;/strong&gt;&lt;/em&gt;，&lt;del&gt;删除线&lt;/del&gt;，&lt;code&gt;段内代码&lt;/code&gt;。
+第二用&amp;rsquo;&amp;gt;&amp;lsquo;继续引用块&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;双重引用块&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;代码引用：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  四个空格的方式
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;一换行就没了&lt;/p&gt;
+&lt;p&gt;[```] //不要这里的中括号哦。。。
+fence的方式
+这个方式不怕换行&lt;/p&gt;
+&lt;p&gt;怎么换都可以。&lt;/p&gt;
+&lt;p&gt;这里不能使用别的样式：&lt;strong&gt;粗体&lt;/strong&gt;，&lt;em&gt;斜体&lt;/em&gt;，&lt;del&gt;删除线&lt;/del&gt;，&lt;a class=&#34;link&#34; href=&#34;http://www.google.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;超链接&lt;/a&gt;
+[```] //不要这里的中括号哦。。。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;列表：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;有序列表1&lt;/li&gt;
+&lt;li&gt;有序列表2&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;- 子列表1
+- 子列表2
+  * 子子列表1
+  * 子子列表2
+    1. 子子子列表1
+    1. 子子子列表2
+    1. 子子子列表3
+  * 子子列表3
+- 子列表3
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol&gt;
+&lt;li&gt;有序列表3&lt;/li&gt;
+&lt;li&gt;有序列表4&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;无序列表1&lt;/li&gt;
+&lt;li&gt;无序列表2&lt;/li&gt;
+&lt;li&gt;无序列表3&lt;/li&gt;
+&lt;li&gt;无序列表4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;测试超链接：&lt;a class=&#34;link&#34; href=&#34;http://www.jianshu.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;直接适用URL&lt;/a&gt;和&lt;a class=&#34;link&#34; href=&#34;http://jianshu.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;使用引用URL&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;接着是图片：&lt;img src=&#34;https://img.58tg.com/up/allimg/tx23/120415025830516.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;这里是图片说明&#34;
+	
+	
+&gt;
+和引用式的用法：&lt;img src=&#34;https://img.58tg.com/up/allimg/tx23/120415025830516.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;这个是引用图片地址的方法哦&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img.58tg.com/up/allimg/tx23/120415025830516.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;图片说明里也可以使用各种语法，比如粗体，斜体，删除线，段内代码&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;表格：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;A&lt;/th&gt;
+&lt;th&gt;B&lt;/th&gt;
+&lt;th&gt;C&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;A1&lt;/td&gt;
+&lt;td&gt;B1&lt;/td&gt;
+&lt;td&gt;C1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;A2&lt;/td&gt;
+&lt;td&gt;B2&lt;/td&gt;
+&lt;td&gt;C2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;这是普通表格&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;左对齐&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;剧中&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;右对齐&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;A1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;B1&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;C1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;A2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;B2&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;C2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;这是文艺表格&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;A&lt;/th&gt;
+&lt;th&gt;B&lt;/th&gt;
+&lt;th&gt;C&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;粗体&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;del&gt;删除&lt;/del&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;__另一种粗体__A2&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;另一个斜体&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;段内代码&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.twitter.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;超链接也可以&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;脚注&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;这是二逼表格&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;接下来是sanitize部分：&lt;/p&gt;
+  &lt;p&gt;p标签的使用&lt;/p&gt;
+  &lt;blockquote&gt;blockquote标签的使用&lt;/blockquote&gt;
+  &lt;pre&gt;pre标签&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;code标签&lt;/code&gt;&lt;/p&gt;
+  &lt;pre&gt;&lt;code&gt;pre和code&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;下面试试列表们&lt;/p&gt;
+  &lt;ol&gt;
+  &lt;li&gt;有序列表1&lt;/li&gt;
+  &lt;li&gt;有序列表2
+  &lt;ul&gt;
+  &lt;li&gt;子列表1&lt;/li&gt;
+  &lt;li&gt;子列表2
+  &lt;ul&gt;
+  &lt;li&gt;子子列表1&lt;/li&gt;
+  &lt;li&gt;子子列表2
+  &lt;ol&gt;
+  &lt;li&gt;子子子列表1&lt;/li&gt;
+  &lt;li&gt;子子子列表2&lt;/li&gt;
+  &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;子子列表3&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;子列表1&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;有序列表3&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;p&gt;格式：
+&lt;b&gt;B粗体&lt;/b&gt;和&lt;strong&gt;STRONG粗体&lt;/strong&gt;
+&lt;i&gt;I斜体&lt;/i&gt;和&lt;em&gt;EM斜体&lt;/em&gt;
+&lt;u&gt;U下划线&lt;/u&gt;和&lt;strike&gt;STRIKE删除线&lt;/strike&gt;与&lt;del&gt;STRIKE删除线&lt;/del&gt;
+&lt;a&gt;超链接&lt;/a&gt;，&lt;cite&gt;CITE标记&lt;/cite&gt;，&lt;caption&gt;CAPTION标题&lt;/caption&gt;
+普通文字&lt;sup&gt;SUP上标&lt;/sup&gt;&lt;sub&gt;SUB下标&lt;/sub&gt;&lt;big&gt;BIG加大&lt;/big&gt;&lt;small&gt;SMALL减小&lt;/small&gt;
+带尺寸的IMAGE
+&lt;img src=&#34;https://img.58tg.com/up/allimg/tx23/120415025830516.jpg&#34; width=300 /&gt;&lt;/p&gt;
+&lt;p&gt;嗯，常用的基本就这些了。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;这个就是注脚内容，写在文章最后&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;这个是第二条注脚内容，写在文章里面&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        <item>
+        <title>Python基本使用</title>
+        <link>https://www.catguild.cn/draft/python/%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/draft/python/%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</guid>
+        <description>&lt;h1 id=&#34;基本安装&#34;&gt;基本安装&lt;/h1&gt;
+&lt;p&gt;1、到官网下载最新的版本&lt;/p&gt;
+&lt;h1 id=&#34;虚拟环境&#34;&gt;虚拟环境&lt;/h1&gt;
+&lt;p&gt;1、安装&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pip install pipenv
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;2、（选用）修改环境变量
+该环境会让虚拟环境创建再当前项目下，否则会创建默认位置&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;PIPENV_VENV_IN_PROJECT=1
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;3、到项目目录下&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pipenv install
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;该命令会创建虚拟环境目录，并生成  &lt;code&gt;Pipfile&lt;/code&gt; 和&lt;code&gt;Pipfile.lock&lt;/code&gt; 文件&lt;/p&gt;
+&lt;p&gt;4、安装依赖&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pipenv install package_name
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;5、国内源&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;阿里云 http://mirrors.aliyun.com/pypi/simple/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;中国科技大学 https://pypi.mirrors.ustc.edu.cn/simple/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;豆瓣(douban) http://pypi.douban.com/simple/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;清华大学 https://pypi.tuna.tsinghua.edu.cn/simple/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;中国科学技术大学 http://pypi.mirrors.ustc.edu.cn/simple/
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>Redis分布式锁</title>
+        <link>https://www.catguild.cn/draft/redis/redis%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/draft/redis/redis%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81/</guid>
+        <description>&lt;h1 id=&#34;为什么需要分布式锁&#34;&gt;为什么需要分布式锁&lt;/h1&gt;
+&lt;p&gt;单机场景下用的都是本地锁，针对的仅仅是一个jvm进程所管理的资源。当单体应用部署了多份的时候，一个jvm进程中本地锁是无法影响到另一个jvm进程的本地锁的，这样是无法保证资源的独占的。所以分布式锁应运而生。&lt;/p&gt;
+&lt;h1 id=&#34;一个靠谱的分布式锁需要具备哪些条件&#34;&gt;一个靠谱的分布式锁需要具备哪些条件&lt;/h1&gt;
+&lt;p&gt;首先需要考虑一个合格的分布式锁需要具备哪些条件。
+一个锁需要具备的基本功能
+1、独占性：任何时候都仅能有一个线程获取该锁。这是任何一个锁最基础的功能，毕竟锁就是为了解决资源竞争产生的不一致问题。
+2、不乱抢：当前线程加的锁，只能有当前线程来解锁，也不能去unlock其它线程加的锁。
+3、可重入性：在当前线程中，如果已经获取了该锁，之后将可以自动再次获取这个锁。
+在分布式环境需要额外考虑的问题
+1、防止死锁：要能杜绝死锁，要有兜底方案，例如能支持撤销操作或者可以超时自动释放
+2、高可用：性能要好，能支撑高并发请求，不能因为某节点不可用，就导致获取锁或者释放失败&lt;/p&gt;
+&lt;h1 id=&#34;如果自己来实现一个分布式锁该如何做&#34;&gt;如果自己来实现一个分布式锁该如何做&lt;/h1&gt;
+&lt;p&gt;自然是围绕了如何实现上面靠谱的分布式锁具备的条件了。&lt;/p&gt;
+&lt;h2 id=&#34;前置准备工作&#34;&gt;前置准备工作&lt;/h2&gt;
+&lt;p&gt;1、选择外部存储介质
+因为需要让不同的jvm进程都能访问到存放锁的资源点，那么就需要依赖jvm外部的存储介质了。一般来说就是 数据库（关系型或nosql）、微服务里的配置中心（支持多个服务来读存数据）。那么这里就先用目前最常用的nosql数据库 Redis 为例来实现了。
+2、代码实现规范
+分布式锁必然有多种实现方式，那自然应该是基于接口来编程，那么直接实现jdk中的lock接口就是最好的方式。&lt;/p&gt;
+&lt;h2 id=&#34;测试准备&#34;&gt;测试准备&lt;/h2&gt;
+&lt;p&gt;准备一个多实例，支持并发请求的测试环境，来验证是否代码是否通过。&lt;/p&gt;
+&lt;h2 id=&#34;分步来实现分布式锁应具备的功能&#34;&gt;分步来实现分布式锁应具备的功能&lt;/h2&gt;
+&lt;p&gt;1、独占性
+只需要在存储介质上留下个锁标记即可，如果其他线程能查询到这个标识，那就说明该资源已经上锁，否则则表示无锁，可以上锁。&lt;/p&gt;
+&lt;h1 id=&#34;有什么成熟的解决方案&#34;&gt;有什么成熟的解决方案&lt;/h1&gt;
+&lt;h1 id=&#34;需要注意些什么&#34;&gt;需要注意些什么&lt;/h1&gt;
+</description>
+        </item>
+        <item>
+        <title>Redis基础数据类型</title>
+        <link>https://www.catguild.cn/draft/redis/redis%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/draft/redis/redis%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</guid>
+        <description>&lt;h1 id=&#34;页面内容2&#34;&gt;页面内容2&lt;/h1&gt;
+</description>
+        </item>
+        <item>
+        <title>Redis面试题</title>
+        <link>https://www.catguild.cn/draft/redis/redis%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/draft/redis/redis%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
+        <description>&lt;p&gt;1、Redis除了拿来做缓存&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>关于</title>
+        <link>https://www.catguild.cn/about/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/about/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>友链</title>
+        <link>https://www.catguild.cn/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/links/</guid>
+        <description>&lt;a target=&#34;_blank&#34; href=https://www.soulchild.cn/ title=SoulChild随笔记 class=&#34;friendurl&#34;&gt;
+  &lt;div class=&#34;frienddiv&#34;&gt;
+    &lt;div class=&#34;frienddivleft&#34;&gt;
+      &lt;img class=&#34;myfriend&#34; src=https://www.soulchild.cn/images/avatar.png /&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;frienddivright&#34;&gt;
+      &lt;div class=&#34;friendname&#34;&gt;SoulChild随笔记&lt;/div&gt;
+      &lt;div class=&#34;friendinfo&#34;&gt;SoulChild随笔记&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+</description>
+        </item>
+        <item>
+        <title>归档</title>
+        <link>https://www.catguild.cn/archives/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>搜索</title>
+        <link>https://www.catguild.cn/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/search/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>爬虫</title>
+        <link>https://www.catguild.cn/draft/python/%E7%88%AC%E8%99%AB/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/draft/python/%E7%88%AC%E8%99%AB/</guid>
+        <description>&lt;h1 id=&#34;爬虫框架-scrapy&#34;&gt;爬虫框架 scrapy&lt;/h1&gt;
+&lt;p&gt;1、创建新项目&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;scrapy startproject tutorial
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;2、创建爬虫文件&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 创建普通模版&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;scrapy genspider 爬虫名字 爬取的域名（不用协议头）
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 创建 crawl spider 模版&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;scrapy genspider -t crawl 爬虫名字 爬取的域名（不用协议头）
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;3、启动爬虫&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;scrapy crawl 爬虫名字
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;项目文件结构&#34;&gt;项目文件结构&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;项目名字
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	项目名字
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		spiders文件夹（存储的是爬虫文件）
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;			init
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;			自定义的爬虫文件		核心功能文件
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		init
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		items		定义数据结构的地方		爬取的数据包含那些
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		middleware		中间件		代理
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		settings		配置文件		robots协议		ua定义等
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;response的属性和方法&#34;&gt;response的属性和方法&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;response.text	获取的是响应的字符串
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;response.body	获取的是二进制数据
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;response.xpath	可以直接是xpath方法来解析response中的内容
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;response.extract()	提取seletor对象的data属性值
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;response.extract_first()	提取seletor列表的第一个数据
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;setting&#34;&gt;setting&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 需要使用管道，需要打开该设置
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ITEM_PIPELINES = {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	# 管道可以有多个，并有有优先级，值从1-1000，值越小越高
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&amp;#39;项目名.pipelines.管道名&amp;#39;: 300
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;下载图片&#34;&gt;下载图片&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; urllib.request
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;DownLoadPipeline&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;process_item&lt;/span&gt;(self, item, spider):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        url &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; item&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;url&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        filename&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;http://&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; item&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;get(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;name&amp;#39;&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;.jpg&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        urllib&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;request&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;urlretrieve(url &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; url, filename &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; filename)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; item
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;部署&#34;&gt;部署&lt;/h2&gt;
+&lt;p&gt;scrapy部署服务器有一套完整的开源项目：&lt;strong&gt;scrapy+scrapyd(服务端)+scrapy-client(客户端)+scrapydweb&lt;/strong&gt;
+1、scrapyd(服务端)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 官方文档
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;https://scrapyd.readthedocs.io
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 安装
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pipenv install scrapyd
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 启动
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;scrapyd
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 浏览器访问
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;http://127.0.0.1:6800
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;2、scrapy-client
+scrapy-client它允许我们将本地的scrapy项目打包发送到scrapyd 这个服务端（前提是服务器scrapyd正常运行）&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 官方文档
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;https://pypi.org/project/scrapyd-client/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 安装
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pipenv install scrapyd-client
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;3、scrapydweb（可选）&lt;/p&gt;
+&lt;p&gt;ScrapydWeb：用于Scrapyd集群管理的Web应用程序，支持Scrapy日志分析和可视化。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;#官方文档
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;https://github.com/my8100/scrapydweb/blob/master/README_CN.md
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 安装
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pipenv install scrapydweb
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 运行命令
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;scrapydweb
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;运行命令scrapydweb，首次启动将会在当前目录下生成配置文件“scrapydweb_settings_v*.py”&lt;/p&gt;
+&lt;p&gt;1、更改配置文件 编辑配置文件，将ENABLE_LOGPARSER更改为False&lt;/p&gt;
+&lt;p&gt;2、添加访问权限&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SCRAPYD_SERVERS = [
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;#39;127.0.0.1:6800&amp;#39;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    # &amp;#39;username:password@localhost:6801#group&amp;#39;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (&amp;#39;username&amp;#39;, &amp;#39;password&amp;#39;, &amp;#39;localhost&amp;#39;, &amp;#39;6801&amp;#39;, &amp;#39;group&amp;#39;),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;3、添加http认证&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ENABLE_AUTH = True
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;USERNAME = &amp;#39;username&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;PASSWORD = &amp;#39;password&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;如果启动失败一般是使用了高版本的python&#34;&gt;如果启动失败（一般是使用了高版本的python）&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 400 错误
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;APScheduler==3.9.1
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 500 错误
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SQLAlchemy&amp;gt;=1.2.15,&amp;lt;1.4.0
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>线程中断</title>
+        <link>https://www.catguild.cn/draft/python/%E7%BA%BF%E7%A8%8B%E4%B8%AD%E6%96%AD/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/draft/python/%E7%BA%BF%E7%A8%8B%E4%B8%AD%E6%96%AD/</guid>
+        <description>&lt;h1 id=&#34;线程中断机制&#34;&gt;线程中断机制&lt;/h1&gt;
+&lt;h1 id=&#34;locksupport类&#34;&gt;LockSupport类&lt;/h1&gt;
+&lt;p&gt;简介：用于创建锁和其他同步类的基本线程阻塞原语&lt;/p&gt;
+&lt;p&gt;该类与使用它的每个线程关联一个许可证（在Semaphore类的意义上）。如果许可证可用，将立即返回park，并在此过程中消费；否则可能会阻止。如果尚未提供许可，则致电unpark获取许可（与Semaphore不同，许可证不会累积，最多只有一个）&lt;/p&gt;
+&lt;p&gt;主要api：park与unpark方法，需要成对使用。&lt;/p&gt;
+&lt;p&gt;park：除非许可证可用，否则禁用当前线程以进行线程调度。【作用：阻塞线程】&lt;/p&gt;
+&lt;p&gt;unaprk：如果给定线程尚不可用，则为其提供许可。【作用：解除阻塞线程】&lt;/p&gt;
+&lt;p&gt;底层调用的是unsafe类，&lt;/p&gt;
+&lt;p&gt;使用场景：&lt;/p&gt;
+&lt;h1 id=&#34;线程阻塞唤醒的方法&#34;&gt;线程阻塞唤醒的方法&lt;/h1&gt;
+&lt;p&gt;有3种方式&lt;/p&gt;
+&lt;p&gt;1、使用Object中的wait()方法让线程等待，使用Object中的notify()方法唤醒线程&lt;/p&gt;
+&lt;p&gt;2、使用JUC包中Condition的await()方法让线程等待，使用signal()方法唤醒线程&lt;/p&gt;
+&lt;p&gt;3、 LockSupport类可以阻塞当前线程以及唤醒指定被阻塞线程&lt;/p&gt;
+&lt;h1 id=&#34;线程等待唤醒机制&#34;&gt;线程等待唤醒机制&lt;/h1&gt;
+</description>
         </item>
         
     </channel>
