@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on 雪乃の猫</title>
+        <link>https://www.catguild.cn/page/</link>
+        <description>Recent content in Pages on 雪乃の猫</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language><atom:link href="https://www.catguild.cn/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>关于</title>
+        <link>https://www.catguild.cn/page/about/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/page/about/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>归档</title>
+        <link>https://www.catguild.cn/archives/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>搜索事实上</title>
+        <link>https://www.catguild.cn/page/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/page/search/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>友链</title>
+        <link>https://www.catguild.cn/page/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/page/links/</guid>
+        <description>&lt;a target=&#34;_blank&#34; href=https://www.soulchild.cn/ title=SoulChild随笔记 class=&#34;friendurl&#34;&gt;
+  &lt;div class=&#34;frienddiv&#34;&gt;
+    &lt;div class=&#34;frienddivleft&#34;&gt;
+      &lt;img class=&#34;myfriend&#34; src=https://www.soulchild.cn/images/avatar.png /&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;frienddivright&#34;&gt;
+      &lt;div class=&#34;friendname&#34;&gt;SoulChild随笔记&lt;/div&gt;
+      &lt;div class=&#34;friendinfo&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

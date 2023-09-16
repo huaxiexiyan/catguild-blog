@@ -2,10 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.catguild.cn/posts/2023091504/</loc>
-    <lastmod>2023-09-15T00:00:00+00:00</lastmod>
+    <loc>https://www.catguild.cn/categories/</loc>
+    <lastmod>2023-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.catguild.cn/tags/flask/</loc>
+    <lastmod>2023-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.catguild.cn/series/flask/</loc>
+    <lastmod>2023-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.catguild.cn/posts/2023091601/</loc>
+    <lastmod>2023-09-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.catguild.cn/posts/</loc>
+    <lastmod>2023-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.catguild.cn/tags/python/</loc>
+    <lastmod>2023-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.catguild.cn/series/</loc>
+    <lastmod>2023-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.catguild.cn/tags/</loc>
+    <lastmod>2023-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.catguild.cn/categories/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2023-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.catguild.cn/</loc>
+    <lastmod>2023-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.catguild.cn/posts/2023091504/</loc>
     <lastmod>2023-09-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.catguild.cn/posts/2023091505/</loc>
@@ -14,13 +41,10 @@
     <loc>https://www.catguild.cn/posts/2023091506/</loc>
     <lastmod>2023-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.catguild.cn/posts/2023091503/</loc>
-    <lastmod>2023-09-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.catguild.cn/</loc>
-    <lastmod>2023-09-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.catguild.cn/posts/2023091502/</loc>
+    <lastmod>2023-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.catguild.cn/posts/2023091503/</loc>
     <lastmod>2023-09-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.catguild.cn/posts/2020011501/</loc>
@@ -28,11 +52,11 @@
   </url><url>
     <loc>https://www.catguild.cn/draft/redis/readme/</loc>
   </url><url>
-    <loc>https://www.catguild.cn/categories/</loc>
-  </url><url>
     <loc>https://www.catguild.cn/draft/</loc>
   </url><url>
     <loc>https://www.catguild.cn/test/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</loc>
+  </url><url>
+    <loc>https://www.catguild.cn/page/</loc>
   </url><url>
     <loc>https://www.catguild.cn/draft/python/%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</loc>
   </url><url>
@@ -42,22 +66,18 @@
   </url><url>
     <loc>https://www.catguild.cn/draft/redis/redis%E9%9D%A2%E8%AF%95%E9%A2%98/</loc>
   </url><url>
-    <loc>https://www.catguild.cn/series/</loc>
-  </url><url>
-    <loc>https://www.catguild.cn/tags/</loc>
-  </url><url>
     <loc>https://www.catguild.cn/test/</loc>
   </url><url>
-    <loc>https://www.catguild.cn/about/</loc>
-  </url><url>
-    <loc>https://www.catguild.cn/links/</loc>
+    <loc>https://www.catguild.cn/page/about/</loc>
   </url><url>
     <loc>https://www.catguild.cn/archives/</loc>
   </url><url>
-    <loc>https://www.catguild.cn/search/</loc>
-  </url><url>
     <loc>https://www.catguild.cn/draft/python/%E7%88%AC%E8%99%AB/</loc>
   </url><url>
+    <loc>https://www.catguild.cn/page/search/</loc>
+  </url><url>
     <loc>https://www.catguild.cn/draft/python/%E7%BA%BF%E7%A8%8B%E4%B8%AD%E6%96%AD/</loc>
+  </url><url>
+    <loc>https://www.catguild.cn/page/links/</loc>
   </url>
 </urlset>
