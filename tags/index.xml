@@ -6,7 +6,39 @@
         <description>Recent content in Tags on 雪乃の猫</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sat, 16 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.catguild.cn/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 28 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.catguild.cn/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Arthas</title>
+        <link>https://www.catguild.cn/tags/arthas/</link>
+        <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/tags/arthas/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Docker</title>
+        <link>https://www.catguild.cn/tags/docker/</link>
+        <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/tags/docker/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>JAVA</title>
+        <link>https://www.catguild.cn/tags/java/</link>
+        <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/tags/java/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>部署方式</title>
+        <link>https://www.catguild.cn/tags/%E9%83%A8%E7%BD%B2%E6%96%B9%E5%BC%8F/</link>
+        <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/tags/%E9%83%A8%E7%BD%B2%E6%96%B9%E5%BC%8F/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Flask</title>
         <link>https://www.catguild.cn/tags/flask/</link>
         <pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate>
