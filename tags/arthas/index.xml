@@ -8,10 +8,10 @@
         <language>zh-cn</language>
         <lastBuildDate>Thu, 28 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.catguild.cn/tags/arthas/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Arthas 简单使用</title>
-        <link>https://www.catguild.cn/posts/2023092801/</link>
+        <link>https://www.catguild.cn/posts/2023092802/</link>
         <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://www.catguild.cn/posts/2023092801/</guid>
+        <guid>https://www.catguild.cn/posts/2023092802/</guid>
         <description>&lt;h1 id=&#34;启动&#34;&gt;启动&lt;/h1&gt;
 &lt;h2 id=&#34;非正常环境下启动&#34;&gt;非正常环境下启动&lt;/h2&gt;
 &lt;p&gt;在docker环境下运行，并且没有jdk，只有jre环境，而且pid进程好为1，可以使用下发的方式启动。&lt;/p&gt;
