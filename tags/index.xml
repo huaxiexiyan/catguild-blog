@@ -6,7 +6,31 @@
         <description>Recent content in Tags on 雪乃の猫</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Thu, 28 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.catguild.cn/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 21 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.catguild.cn/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Debian11</title>
+        <link>https://www.catguild.cn/tags/debian11/</link>
+        <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/tags/debian11/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Linux</title>
+        <link>https://www.catguild.cn/tags/linux/</link>
+        <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/tags/linux/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>swap</title>
+        <link>https://www.catguild.cn/tags/swap/</link>
+        <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/tags/swap/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Arthas</title>
         <link>https://www.catguild.cn/tags/arthas/</link>
         <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
