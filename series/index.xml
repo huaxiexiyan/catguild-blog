@@ -6,7 +6,15 @@
         <description>Recent content in Series on 雪乃の猫</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Thu, 28 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.catguild.cn/series/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 27 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.catguild.cn/series/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Postgres</title>
+        <link>https://www.catguild.cn/series/postgres/</link>
+        <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/series/postgres/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Arthas</title>
         <link>https://www.catguild.cn/series/arthas/</link>
         <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>

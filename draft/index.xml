@@ -7,6 +7,314 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language><atom:link href="https://www.catguild.cn/draft/index.xml" rel="self" type="application/rss+xml" /><item>
         <title></title>
+        <link>https://www.catguild.cn/draft/cat/%E6%9E%84%E6%80%9D/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/draft/cat/%E6%9E%84%E6%80%9D/</guid>
+        <description>&lt;h1 id=&#34;登录验证用户&#34;&gt;登录验证用户&lt;/h1&gt;
+&lt;h2 id=&#34;问题1人和账号之间关系&#34;&gt;问题1：人和账号之间关系&lt;/h2&gt;
+&lt;p&gt;人和账号分离，人作为唯一的实体存在，账号仅作为登录的凭证。故人可以有多个账号，但一个账号只能所属一个人。账号既可以全平台通用，也可以分离设置。账号中的邮箱、手机号等，后续有需要作为增强方式。&lt;/p&gt;
+&lt;h2 id=&#34;问题2如何找到正确的账号&#34;&gt;问题2：如何找到正确的账号&lt;/h2&gt;
+&lt;p&gt;应用可能面向b或者c端，如果面向c端，那就当成一个特殊的b即可。所以登录时，必须要知道这是哪一个租户下的，才能找到相应的人。&lt;/p&gt;
+&lt;h2 id=&#34;问题3如何查询账号&#34;&gt;问题3：如何查询账号&lt;/h2&gt;
+&lt;p&gt;pc浏览器进行登录的时候，需要确认从在那个租户下去查询账号信息。选择通过域名来区分，每个租户绑定着唯一的一个域名。&lt;/p&gt;
+&lt;h2 id=&#34;问题4多应用如何统一登录界面&#34;&gt;问题4：多应用如何统一登录界面&lt;/h2&gt;
+&lt;p&gt;登录时与应用无关，仅需要在登录成功是重定向回原来的地方即可。&lt;/p&gt;
+&lt;h2 id=&#34;问题5登录成功后如何进行&#34;&gt;问题5：登录成功后如何进行&lt;/h2&gt;
+&lt;p&gt;登录token放在cookie中，跳转前几&lt;/p&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
+&lt;p&gt;pc浏览器输入域名 -&amp;gt; 根据域名查询到租户id -&amp;gt; 根据这个租户id查询账号 -&amp;gt; 验证账号是否有效 -&amp;gt; 响应登录结果&lt;/p&gt;
+&lt;h2 id=&#34;数据表&#34;&gt;数据表&lt;/h2&gt;
+&lt;p&gt;tenant表（租户表）&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;字段名&lt;/th&gt;
+&lt;th&gt;中文名&lt;/th&gt;
+&lt;th&gt;类型&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;id&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;domain&lt;/td&gt;
+&lt;td&gt;域名&lt;/td&gt;
+&lt;td&gt;varchar&lt;/td&gt;
+&lt;td&gt;应用区分&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;account表（账号表）&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;字段名&lt;/th&gt;
+&lt;th&gt;中文名&lt;/th&gt;
+&lt;th&gt;类型&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;id&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tenant_id&lt;/td&gt;
+&lt;td&gt;租户id&lt;/td&gt;
+&lt;td&gt;int8&lt;/td&gt;
+&lt;td&gt;同租户下的账号名唯一&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;username&lt;/td&gt;
+&lt;td&gt;登录用户名&lt;/td&gt;
+&lt;td&gt;varchar&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;password&lt;/td&gt;
+&lt;td&gt;密码&lt;/td&gt;
+&lt;td&gt;varchar&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;user_id&lt;/td&gt;
+&lt;td&gt;用户id&lt;/td&gt;
+&lt;td&gt;int8&lt;/td&gt;
+&lt;td&gt;绑定的用户id&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;user表（用户表）&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;字段名&lt;/th&gt;
+&lt;th&gt;中文名&lt;/th&gt;
+&lt;th&gt;类型&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;id&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tenant_id&lt;/td&gt;
+&lt;td&gt;租户id&lt;/td&gt;
+&lt;td&gt;int8&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;name&lt;/td&gt;
+&lt;td&gt;名字&lt;/td&gt;
+&lt;td&gt;varchar&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;问题2获取到最终的菜单列表&#34;&gt;问题2：获取到最终的菜单列表&lt;/h1&gt;
+</description>
+        </item>
+        <item>
+        <title></title>
+        <link>https://www.catguild.cn/draft/cat/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/draft/cat/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/</guid>
+        <description>&lt;h1 id=&#34;应用终端&#34;&gt;应用终端&lt;/h1&gt;
+&lt;h2 id=&#34;pc端&#34;&gt;pc端&lt;/h2&gt;
+&lt;h3 id=&#34;特殊应用端&#34;&gt;特殊应用端&lt;/h3&gt;
+&lt;h4 id=&#34;运维管理端&#34;&gt;运维管理端&lt;/h4&gt;
+&lt;p&gt;应用人员：提供给开发人员使用的&lt;/p&gt;
+&lt;h4 id=&#34;租户管理端&#34;&gt;租户管理端&lt;/h4&gt;
+&lt;p&gt;应用人员：维护管理app的人员&lt;/p&gt;
+&lt;h3 id=&#34;一般应用端&#34;&gt;一般应用端&lt;/h3&gt;
+&lt;h3 id=&#34;其他具体应用端&#34;&gt;其他具体应用端&lt;/h3&gt;
+&lt;h1 id=&#34;服务后端&#34;&gt;服务后端&lt;/h1&gt;
+&lt;p&gt;基本准则
+1、复用能力整合到一个服务中
+2、每个应用对应一个确定的服务、如果需要使用基础服务能力，需要中转调用&lt;/p&gt;
+&lt;h2 id=&#34;授权服务&#34;&gt;授权服务&lt;/h2&gt;
+&lt;p&gt;目前授权和用户及权限关联在一个服务中，后期可以考虑分离开&lt;/p&gt;
+&lt;h2 id=&#34;系统服务&#34;&gt;系统服务&lt;/h2&gt;
+&lt;p&gt;提供一下基础能力
+1、定时任务执行
+2、系统菜单的管理&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title></title>
+        <link>https://www.catguild.cn/draft/cat/%E9%9A%8F%E8%AE%B0/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/draft/cat/%E9%9A%8F%E8%AE%B0/</guid>
+        <description>&lt;h1 id=&#34;catguild-auth-授权服务&#34;&gt;catguild-auth (授权服务)&lt;/h1&gt;
+&lt;p&gt;1、授权客户端，分3类
+其一、受信任的终端
+其二、微服务之间
+其三、第三方不受信任的&lt;/p&gt;
+&lt;p&gt;2、用户
+就应用授权来说，有2类用户
+其一、是租户为授权单位
+其二、是一般用户
+其三、是微服务系统用户&lt;/p&gt;
+&lt;p&gt;3、解决授权问题
+1、先解决一般用户登录问题&lt;/p&gt;
+&lt;h2 id=&#34;用户登录流程&#34;&gt;用户登录流程&lt;/h2&gt;
+&lt;h3 id=&#34;用户操作界面视角&#34;&gt;用户操作界面视角&lt;/h3&gt;
+&lt;p&gt;注册租户-&amp;gt;给租户授权app版本(等同是授权了菜单)-&amp;gt;注册租户下的用户-&amp;gt;分配权限资源-&amp;gt;用户登录系统&lt;/p&gt;
+&lt;h3 id=&#34;注册租户&#34;&gt;注册租户&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;step1: 需要初始化一个超级租户和相应的超级管理员，来进行管理工作
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;q1: 如何在登录的时候感知度租户的变化捏？
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a1: 利用域名的不同感知不同的租户，在进入登录页的时候，获取到相应的tenantId。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;方案1：访问前端页面的时候，请求后端获取租户的基本信息，然后后续的访问就不用特别处理了。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;方案2：直接进行登录，在请求登录接口时携带域名信息，后端根据域名获取租户和路由信息
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;这里选择在登录之前进行获取，这样一来如果是单个域名也能方便切换不同的租户进行登录
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;q2: 登录的时候如何判断用户
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a2: 根据上一步获取的租户id及用户登录凭证，检查租户及租户下的用户是否有效
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;step1: 注册客户端-&amp;gt; 给前端访问页面测试一个客户，获取唯一的访问clientId，以及分配好授权访问权限
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;注册&#34;&gt;注册&lt;/h3&gt;
+</description>
+        </item>
+        <item>
+        <title></title>
+        <link>https://www.catguild.cn/draft/cat/%E9%A1%B9%E7%9B%AE%E8%BF%9B%E5%BA%A6/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/draft/cat/%E9%A1%B9%E7%9B%AE%E8%BF%9B%E5%BA%A6/</guid>
+        <description>&lt;h1 id=&#34;开发进度&#34;&gt;开发进度&lt;/h1&gt;
+&lt;h2 id=&#34;pc端&#34;&gt;pc端&lt;/h2&gt;
+&lt;h3 id=&#34;特殊应用端&#34;&gt;特殊应用端&lt;/h3&gt;
+&lt;h4 id=&#34;运维管理端&#34;&gt;运维管理端&lt;/h4&gt;
+&lt;p&gt;应用人员：开发人员&lt;/p&gt;
+&lt;h5 id=&#34;功能开发&#34;&gt;功能开发&lt;/h5&gt;
+&lt;h6 id=&#34;1系统管理&#34;&gt;1、系统管理&lt;/h6&gt;
+&lt;p&gt;1、用户管理&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 新增用户&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 用户编辑&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 用户列表展示&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 用户状态变更&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 重置密码&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 配置角色&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2、角色管理&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 新增角色&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 角色编辑&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 用户列表展示&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 用户状态变更&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 配置用户&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;2应用管理&#34;&gt;2、应用管理&lt;/h5&gt;
+&lt;p&gt;1、应用管理&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; app新增&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; app更新&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 上下架&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 列表&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 配置菜单&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2、菜单管理&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 菜单新增&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 菜单更新&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 上下架&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 列表&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;租户管理端&#34;&gt;租户管理端&lt;/h4&gt;
+&lt;p&gt;应用人员：维护管理app的人员&lt;/p&gt;
+&lt;h5 id=&#34;功能开发-1&#34;&gt;功能开发&lt;/h5&gt;
+&lt;h6 id=&#34;1系统管理-1&#34;&gt;1、系统管理&lt;/h6&gt;
+&lt;p&gt;1、用户管理&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 新增用户&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 用户编辑&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 用户列表展示&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 用户状态变更&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 重置密码&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 配置角色&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2、角色管理&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 新增角色&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 角色编辑&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 用户列表展示&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 用户状态变更&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 配置用户&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;2租户管理&#34;&gt;2、租户管理&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 租户新增&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 租户编辑&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 租户列表展示&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 租户状态变更&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 租户详情&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 新增用户&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 用户编辑&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 用户列表展示&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 用户状态变更&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;3app管理&#34;&gt;3、app管理&lt;/h5&gt;
+&lt;p&gt;1、版本管理
+2、菜单管理&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; app+版本列表展示&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; app状态变更&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; app新增&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; app更新&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; app详情&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;服务端&#34;&gt;服务端&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 多数据源切换，以租户为维度路由数据库&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 服务注册，本地共享线上基础服务&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;503245650599743489
+503245650599743490
+503245650599743491
+503245650599743492
+503245650599743493
+503245650599743494
+503245650599743495
+503245650599743496
+503245650599743497&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title></title>
         <link>https://www.catguild.cn/draft/redis/readme/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         

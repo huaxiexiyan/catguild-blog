@@ -6,7 +6,23 @@
         <description>Recent content in Tags on 雪乃の猫</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sat, 21 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.catguild.cn/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 27 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.catguild.cn/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Postgres</title>
+        <link>https://www.catguild.cn/tags/postgres/</link>
+        <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/tags/postgres/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>数据库</title>
+        <link>https://www.catguild.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</link>
+        <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.catguild.cn/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Debian11</title>
         <link>https://www.catguild.cn/tags/debian11/</link>
         <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
